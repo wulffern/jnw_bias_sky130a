@@ -18,7 +18,12 @@
 .control
 optran 0 0 0 10n 10u 0
 op
-write TB_JNW_BIAS.raw
+
+ac dec 50 1 1e9
+
+let vo_mag = db(v(vo))
+
+write TB_JNWBIAS_OTA.raw
 exit
 .endc
 .end

@@ -1,5 +1,4 @@
-v {xschem version=3.4.5 file_version=1.2
-}
+v {xschem version=3.4.6 file_version=1.2}
 G {}
 K {}
 V {}
@@ -37,8 +36,6 @@ N 840 -780 860 -780 {
 lab=LPO}
 N 830 -810 860 -810 {
 lab=LPI}
-N 980 -330 980 -210 {
-lab=VD2}
 N 980 -470 980 -410 {
 lab=VR1}
 N 810 -410 870 -410 {
@@ -105,8 +102,6 @@ N 430 -610 430 -570 {
 lab=VSS}
 N 340 -570 430 -570 {
 lab=VSS}
-N 810 -560 810 -530 {
-lab=VD1}
 N 800 -780 800 -730 {
 lab=LPO}
 N 490 -810 800 -810 {
@@ -153,12 +148,15 @@ N 830 -510 1090 -510 {
 lab=VDD_1V8}
 N 1090 -970 1090 -510 {
 lab=VDD_1V8}
-N 790 -480 810 -530 {
+N 810 -480 810 -410 {
+lab=VR1}
+N 810 -560 810 -480 {
+lab=VR1}
+N 790 -560 790 -480 {
 lab=VD1}
-N 810 -500 810 -410 {
-lab=VR1}
-N 790 -560 810 -500 {
-lab=VR1}
+N 980 -330 980 -310 {lab=#net2}
+N 980 -230 980 -210 {lab=VD2}
+N 890 -270 960 -270 {lab=VSS}
 C {cborder/border_s.sym} 1250 -170 0 0 {
 user="Carsten Wulff"
 company="Carsten Wulff Software"}
@@ -178,7 +176,7 @@ spiceprefix=X
 C {devices/lab_pin.sym} 630 -370 0 1 {name=l2 sig_type=std_logic lab=VD1}
 C {devices/lab_pin.sym} 980 -200 0 1 {name=l4 sig_type=std_logic lab=VD2}
 C {devices/lab_pin.sym} 980 -430 0 1 {name=l5 sig_type=std_logic lab=VR1}
-C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} 980 -410 1 0 {name=x2 }
+C {JNW_TR_SKY130A/JNWTR_RPPO4.sym} 980 -410 1 0 {name=x2 }
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 940 -890 0 0 {name=x1 }
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 670 -890 0 1 {name=x3 }
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 380 -890 0 1 {name=x4 }
@@ -186,3 +184,4 @@ C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 380 -700 0 1 {name=x5 }
 C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} 430 -620 0 0 {name=xc[9:0]}
 C {JNW_BIAS_SKY130A/JNWBIAS_OTA.sym} 800 -710 1 1 {name=x6}
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 1140 -890 0 0 {name=x7 }
+C {JNW_TR_SKY130A/JNWTR_RPPO2.sym} 980 -310 1 0 {name=x8 }

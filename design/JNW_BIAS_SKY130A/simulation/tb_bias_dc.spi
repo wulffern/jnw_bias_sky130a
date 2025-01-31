@@ -18,7 +18,10 @@
 .control
 optran 0 0 0 10n 10u 0
 op
-write TB_JNW_BIAS.raw
+
+dc TEMP -40 125 10
+
+write TB_JNW_BIAS_DC.raw
 exit
 .endc
 .end
