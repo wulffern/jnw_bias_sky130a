@@ -137,9 +137,9 @@ lab=#net1}
 N 890 -890 890 -850 {
 lab=#net1}
 N 1180 -860 1180 -840 {
-lab=IBP_1U[3:0]}
+lab=IBP_1U}
 N 1180 -840 1250 -840 {
-lab=IBP_1U[3:0]}
+lab=IBP_1U}
 N 770 -560 770 -100 {
 lab=VSS}
 N 830 -560 830 -510 {
@@ -157,6 +157,8 @@ lab=VD1}
 N 980 -330 980 -310 {lab=#net2}
 N 980 -230 980 -210 {lab=VD2}
 N 890 -270 960 -270 {lab=VSS}
+N 980 -410 980 -400 {lab=VR1}
+N 980 -340 980 -330 {lab=#net2}
 C {cborder/border_s.sym} 1250 -170 0 0 {
 user="Carsten Wulff"
 company="Carsten Wulff Software"}
@@ -164,7 +166,7 @@ C {devices/ipin.sym} 300 -970 0 0 {name=p4 lab=VDD_1V8}
 C {devices/ipin.sym} 320 -100 0 0 {name=p5 lab=VSS}
 C {devices/opin.sym} 850 -810 0 0 {name=p7 lab=LPI}
 C {devices/opin.sym} 850 -780 0 0 {name=p8 lab=LPO}
-C {devices/opin.sym} 1250 -840 0 0 {name=p9 lab=IBP_1U[3:0]}
+C {devices/opin.sym} 1250 -840 0 0 {name=p9 lab=IBP_1U}
 C {sky130_fd_pr/pnp_05v5.sym} 610 -150 0 0 {name=Q1
 model=pnp_05v5_W3p40L3p40
 spiceprefix=X
@@ -176,12 +178,15 @@ spiceprefix=X
 C {devices/lab_pin.sym} 630 -370 0 1 {name=l2 sig_type=std_logic lab=VD1}
 C {devices/lab_pin.sym} 980 -200 0 1 {name=l4 sig_type=std_logic lab=VD2}
 C {devices/lab_pin.sym} 980 -430 0 1 {name=l5 sig_type=std_logic lab=VR1}
-C {JNW_TR_SKY130A/JNWTR_RPPO4.sym} 980 -410 1 0 {name=x2 }
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 940 -890 0 0 {name=x1 }
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 670 -890 0 1 {name=x3 }
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 380 -890 0 1 {name=x4 }
 C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 380 -700 0 1 {name=x5 }
 C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} 430 -620 0 0 {name=xc[9:0]}
 C {JNW_BIAS_SKY130A/JNWBIAS_OTA.sym} 800 -710 1 1 {name=x6}
-C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 1140 -890 0 0 {name=x7[3:0]}
-C {JNW_TR_SKY130A/JNWTR_RPPO2.sym} 980 -310 1 0 {name=x8 }
+C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 1140 -890 0 0 {name=x7 }
+C {sky130_fd_pr/res_high_po.sym} 980 -370 0 0 {name=R1_1
+W=0.36
+L=7.36
+model=res_high_po
+mult=1}
