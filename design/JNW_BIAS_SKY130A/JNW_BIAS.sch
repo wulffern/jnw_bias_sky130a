@@ -83,7 +83,7 @@ lab=VDD_1V8}
 N 310 -970 340 -970 {
 lab=VDD_1V8}
 N 340 -860 340 -730 {
-lab=#net1}
+lab=VBP}
 N 300 -700 340 -700 {
 lab=VSS}
 N 300 -700 300 -640 {
@@ -111,15 +111,15 @@ lab=LPI}
 N 480 -700 490 -700 {
 lab=LPI}
 N 380 -890 380 -830 {
-lab=#net1}
+lab=VBP}
 N 340 -830 380 -830 {
-lab=#net1}
+lab=VBP}
 N 380 -830 670 -830 {
-lab=#net1}
+lab=VBP}
 N 670 -890 670 -830 {
-lab=#net1}
+lab=VBP}
 N 670 -890 950 -890 {
-lab=#net1}
+lab=VBP}
 N 1180 -970 1180 -920 {
 lab=VDD_1V8}
 N 980 -970 1180 -970 {
@@ -131,14 +131,12 @@ lab=VDD_1V8}
 N 1180 -940 1220 -940 {
 lab=VDD_1V8}
 N 1140 -890 1140 -850 {
-lab=#net1}
+lab=VBP}
 N 890 -850 1140 -850 {
-lab=#net1}
+lab=VBP}
 N 890 -890 890 -850 {
-lab=#net1}
-N 1180 -860 1180 -840 {
-lab=IBP_1U[3:0]}
-N 1180 -840 1250 -840 {
+lab=VBP}
+N 1180 -790 1250 -790 {
 lab=IBP_1U[3:0]}
 N 770 -560 770 -100 {
 lab=VSS}
@@ -154,17 +152,19 @@ N 810 -560 810 -480 {
 lab=VR1}
 N 790 -560 790 -480 {
 lab=VD1}
-N 980 -330 980 -310 {lab=#net2}
+N 980 -330 980 -310 {lab=#net1}
 N 980 -230 980 -210 {lab=VD2}
 N 890 -270 960 -270 {lab=VSS}
-C {cborder/border_s.sym} 1250 -170 0 0 {
-user="Carsten Wulff"
-company="Carsten Wulff Software"}
+N 1180 -860 1180 -790 {lab=IBP_1U[3:0]}
+N 1200 -590 1240 -590 {lab=VDD_1V8}
+N 1200 -570 1240 -570 {lab=VBP}
+N 1200 -530 1240 -530 {lab=VSS}
+N 1200 -550 1240 -550 {lab=VR1}
 C {devices/ipin.sym} 300 -970 0 0 {name=p4 lab=VDD_1V8}
 C {devices/ipin.sym} 320 -100 0 0 {name=p5 lab=VSS}
 C {devices/opin.sym} 850 -810 0 0 {name=p7 lab=LPI}
 C {devices/opin.sym} 850 -780 0 0 {name=p8 lab=LPO}
-C {devices/opin.sym} 1250 -840 0 0 {name=p9 lab=IBP_1U[3:0]}
+C {devices/opin.sym} 1250 -790 0 0 {name=p9 lab=IBP_1U[3:0]}
 C {sky130_fd_pr/pnp_05v5.sym} 610 -150 0 0 {name=Q1
 model=pnp_05v5_W3p40L3p40
 spiceprefix=X
@@ -185,3 +185,14 @@ C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} 430 -620 0 0 {name=xc[9:0]}
 C {JNW_BIAS_SKY130A/JNWBIAS_OTA.sym} 800 -710 1 1 {name=x6}
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 1140 -890 0 0 {name=x7[3:0]}
 C {JNW_TR_SKY130A/JNWTR_RPPO2.sym} 980 -310 1 0 {name=x8 }
+C {devices/lab_pin.sym} 340 -800 0 0 {name=l1 sig_type=std_logic lab=VBP}
+C {cborder/border_xs.sym} 340 -40 0 0 {}
+C {JNW_BIAS_SKY130A/JNWBIAS_START.sym} 1390 -560 0 0 {name=xstart}
+C {devices/lab_pin.sym} 1200 -530 0 0 {name=l3 sig_type=std_logic lab=VSS
+}
+C {devices/lab_pin.sym} 1200 -570 0 0 {name=l6 sig_type=std_logic lab=VBP
+}
+C {devices/lab_pin.sym} 1200 -590 0 0 {name=l7 sig_type=std_logic lab=VDD_1V8
+}
+C {devices/lab_pin.sym} 1200 -550 0 0 {name=l8 sig_type=std_logic lab=VR1
+}
