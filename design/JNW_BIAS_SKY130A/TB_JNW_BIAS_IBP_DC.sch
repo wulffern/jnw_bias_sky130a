@@ -69,14 +69,14 @@ N -280 -50 -280 -10 {
 lab=GND}
 N -280 -10 -160 -10 {
 lab=GND}
-N -160 -80 -160 -10 {
-lab=GND}
 N -160 -30 290 -30 {
 lab=GND}
 N 290 -100 290 -90 {
 lab=IBP_1U[0]}
-N -170 -80 -160 -80 {lab=GND}
 N 140 -100 180 -100 {lab=IBP_1U[3:0]}
+N -160 -60 -160 -30 {lab=GND}
+N -160 -30 -160 -10 {lab=GND}
+N -160 -80 -160 -60 {lab=GND}
 C {JNW_BIAS_SKY130A/JNW_BIAS.sym} -10 -80 0 0 {name=x1}
 C {devices/vsource.sym} -280 -80 0 0 {name=V1 value=1.8 savecurrent=false}
 C {devices/gnd.sym} -220 -10 0 0 {name=l1 lab=GND}

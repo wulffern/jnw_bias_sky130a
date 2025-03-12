@@ -29,8 +29,8 @@ sim_type=ac
 y1=-21.88
 autoload=0
 rawfile=/Users/wulff/data/2023/aicex/ip/jnw_bias_sky130a/design/JNW_BIAS_SKY130A/simulation/TB_JNW_BIAS_IBS_LSTB.raw
-x1=-1.4999885e+08
-x2=8.5000015e+08}
+x1=1k
+x2=1G}
 B 2 390 -420 1190 -20 {flags=graph
 
 
@@ -75,14 +75,14 @@ N -280 -50 -280 -10 {
 lab=0}
 N -280 -10 -160 -10 {
 lab=0}
-N -160 -80 -160 -10 {
-lab=0}
 N -160 -30 290 -30 {
 lab=0}
 N 290 -100 290 -90 {
 lab=IBP_1U[0]}
 N -170 -80 -160 -80 {lab=0}
 N 140 -100 180 -100 {lab=IBP_1U[3:0]}
+N -160 -60 -160 -10 {lab=0}
+N -160 -80 -160 -60 {lab=0}
 C {JNW_BIAS_SKY130A/JNW_BIAS_IBS.sym} -10 -80 0 0 {name=x1}
 C {devices/vsource.sym} -280 -80 0 0 {name=V1 value=1.8 savecurrent=false}
 C {devices/gnd.sym} -220 -10 0 0 {name=l1 lab=0}

@@ -90,7 +90,7 @@ exit
 "}
 C {devices/lab_wire.sym} -280 -130 0 0 {name=p2 sig_type=std_logic lab=VGP}
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} -300 -240 0 0 {name=x11}
-C {devices/isource.sym} -280 10 0 0 {name=I0 value=100n}
+C {devices/isource.sym} -280 10 0 0 {name=I0 value=1u}
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} -380 -240 0 1 {name=x2}
 C {devices/vsource.sym} -280 -80 0 0 {name=V3 value=0 savecurrent=false}
 C {devices/vcvs.sym} -420 10 0 0 {name=E1 value=1}
