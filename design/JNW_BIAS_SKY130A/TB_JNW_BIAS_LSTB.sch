@@ -84,12 +84,12 @@ N -170 -80 -160 -80 {lab=0}
 N 140 -100 180 -100 {lab=IBP_1U[3:0]}
 N -160 -60 -160 -10 {lab=0}
 N -160 -80 -160 -60 {lab=0}
-C {JNW_BIAS_SKY130A/JNW_BIAS_IBS.sym} -10 -80 0 0 {name=x1}
+C {JNW_BIAS_SKY130A/JNW_BIAS.sym} -10 -80 0 0 {name=x1}
 C {devices/vsource.sym} -280 -80 0 0 {name=V1 value=1.8 savecurrent=false}
 C {devices/gnd.sym} -220 -10 0 0 {name=l1 lab=0}
 C {devices/vsource.sym} 290 -60 0 0 {name=V2 value=0.5 savecurrent=false}
 C {devices/lab_wire.sym} 150 -80 0 1 {name=p1 sig_type=std_logic lab=LPI}
-C {devices/code_shown.sym} -290 -910 0 0 {name=s1 only_toplevel=false value="
+C {devices/code_shown.sym} -300 -920 0 0 {name=s1 only_toplevel=false value="
 
 .lib "../../../tech/ngspice/corners.spi" Ktt
 .lib "../../../tech/ngspice/temperature.spi" Tt
@@ -100,14 +100,15 @@ X999 LPI LPO loopgainprobe
 
 .include ../../../../cpdk/ngspice/ideal_circuits.spi
 
-.ic v(x1.vd1) = 0.6
-.ic v(x1.vr1) = 0.6
-.option savecurrents
+
+*.option savecurrents
 .save all
+.save i(v1)
+.save i(v2)
 .control
 optran 0 0 0 10n 20u 0
 op
-write TB_JNW_BIAS_IBS_LSTB_OP.raw
+write TB_JNW_BIAS_LSTB_OP.raw
 
 * Set voltage AC to 1
 ac dec 50 100 1G
@@ -120,14 +121,14 @@ ac dec 50 100 1G
 let lg_mag = db(tian_loop())
 let lg_phase = 180*cph(tian_loop())/pi
 
-write TB_JNW_BIAS_IBS_LSTB.raw
+write TB_JNW_BIAS_LSTB.raw
 
 meas ac gm_db find lg_mag when lg_phase=0
 meas ac pm_deg find lg_phase when lg_mag=0
 meas ac f3db when lg_phase=135
 meas ac ug when lg_mag=0
 meas ac lf_gain find lg_mag at=1k
-write TB_JNW_BIAS_IBS_LSTB_meas.raw
+write TB_JNW_BIAS_LSTB_meas.raw
 exit
 .endc
 .end

@@ -1,8 +1,9 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.3}
 G {}
 K {}
 V {}
 S {}
+F {}
 E {}
 B 2 390 -840 1190 -440 {flags=graph
 
@@ -104,7 +105,7 @@ op
 
 dc TEMP -40 125 10
 
-write TB_JNW_BIAS_DC.raw
+write TB_JNW_BIAS_IBP_DC.raw
 exit
 .endc
 .end

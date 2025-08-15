@@ -1,8 +1,9 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.3}
 G {}
 K {}
 V {}
 S {}
+F {}
 E {}
 N 550 -150 550 -100 {
 lab=VSS}
@@ -56,8 +57,6 @@ N 800 -810 830 -810 {
 lab=LPI}
 N 290 -970 310 -970 {
 lab=VDD_1V8}
-N 340 -970 340 -920 {
-lab=VDD_1V8}
 N 340 -970 980 -970 {
 lab=VDD_1V8}
 N 980 -970 980 -920 {
@@ -74,48 +73,12 @@ N 590 -890 630 -890 {
 lab=VDD_1V8}
 N 590 -970 590 -890 {
 lab=VDD_1V8}
-N 310 -890 340 -890 {
-lab=VDD_1V8}
-N 310 -970 310 -890 {
-lab=VDD_1V8}
 N 310 -970 340 -970 {
 lab=VDD_1V8}
-N 340 -860 340 -730 {
-lab=VBP}
-N 300 -700 340 -700 {
-lab=VSS}
-N 300 -700 300 -640 {
-lab=VSS}
-N 300 -640 340 -640 {
-lab=VSS}
-N 340 -670 340 -640 {
-lab=VSS}
-N 340 -640 340 -100 {
-lab=VSS}
-N 380 -700 480 -700 {
-lab=LPI}
-N 430 -700 430 -680 {
-lab=LPI}
-N 430 -610 430 -570 {
-lab=VSS}
-N 340 -570 430 -570 {
-lab=VSS}
 N 800 -780 800 -730 {
 lab=LPO}
-N 490 -810 800 -810 {
-lab=LPI}
-N 480 -700 490 -700 {
-lab=LPI}
-N 380 -890 380 -830 {
-lab=VBP}
-N 340 -830 380 -830 {
-lab=VBP}
-N 380 -830 670 -830 {
-lab=VBP}
-N 670 -890 670 -830 {
-lab=VBP}
 N 670 -890 950 -890 {
-lab=VBP}
+lab=LPI}
 N 1180 -970 1180 -920 {
 lab=VDD_1V8}
 N 980 -970 1180 -970 {
@@ -127,11 +90,11 @@ lab=VDD_1V8}
 N 1180 -940 1220 -940 {
 lab=VDD_1V8}
 N 1140 -890 1140 -850 {
-lab=VBP}
+lab=LPI}
 N 890 -850 1140 -850 {
-lab=VBP}
+lab=LPI}
 N 890 -890 890 -850 {
-lab=VBP}
+lab=LPI}
 N 1180 -860 1180 -840 {
 lab=IBPS_1U[3:0]}
 N 1180 -840 1250 -840 {
@@ -174,22 +137,21 @@ N 980 -320 1030 -320 {lab=VD2}
 N 1030 -320 1030 -220 {lab=VD2}
 N 980 -220 1030 -220 {lab=VD2}
 N 470 -390 630 -390 {lab=VD1}
-N 490 -810 490 -780 {lab=LPI}
-N 490 -720 490 -700 {lab=LPI}
-N 490 -780 490 -720 {lab=LPI}
 N 400 -320 400 -300 {lab=#net5}
-N 400 -830 400 -380 {lab=VBP}
 N 290 -350 360 -350 {lab=STARTUP_1V8}
 N 400 -350 450 -350 {lab=VSS}
-N 400 -200 400 -190 {lab=#net6}
+N 400 -200 400 -190 {lab=#net5}
 N 400 -110 400 -100 {lab=VSS}
 N 420 -150 450 -150 {lab=VSS}
 N 550 -150 590 -150 {lab=VSS}
-N 400 -220 400 -200 {lab=#net6}
-N 400 -250 450 -250 {lab=VSS}
+N 400 -220 400 -200 {lab=#net5}
 N 400 -300 400 -280 {lab=#net5}
-N 360 -290 360 -250 {lab=#net5}
-N 360 -290 400 -290 {lab=#net5}
+N 820 -900 820 -890 {lab=LPI}
+N 800 -890 800 -810 {lab=LPI}
+N 400 -810 400 -380 {lab=LPI}
+N 400 -810 800 -810 {lab=LPI}
+N 400 -270 400 -220 {lab=#net5}
+N 400 -280 400 -270 {lab=#net5}
 C {cborder/border_s.sym} 1250 -170 0 0 {
 user="Carsten Wulff"
 company="Carsten Wulff Software"}
@@ -212,10 +174,7 @@ C {devices/lab_pin.sym} 980 -430 0 1 {name=l5 sig_type=std_logic lab=VR1}
 C {JNW_TR_SKY130A/JNWTR_RPPO4.sym} 980 -410 1 0 {name=x2 }
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 940 -890 0 0 {name=x1[3:0]}
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 670 -890 0 1 {name=x3[3:0]}
-C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 380 -890 0 1 {name=x4[3:0]}
-C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 380 -700 0 1 {name=x5 }
-C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} 430 -620 0 0 {name=xc[9:0]}
-C {JNW_BIAS_SKY130A/JNWBIAS_OTA.sym} 800 -710 1 1 {name=x6}
+C {JNW_BIAS_SKY130A/JNWBIAS_OTAR.sym} 800 -710 1 1 {name=x6}
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 1140 -890 0 0 {name=x7[3:0]}
 C {JNW_TR_SKY130A/JNWTR_RPPO2.sym} 980 -310 1 0 {name=x8 }
 C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} 1200 -290 1 0 {name=x7 }
@@ -224,8 +183,7 @@ C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} 1200 -400 1 0 {name=x10 }
 C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} 470 -390 1 0 {name=x11 }
 C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} 470 -190 1 0 {name=x12 }
 C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} 1200 -190 1 0 {name=x13 }
-C {devices/lab_pin.sym} 340 -800 2 1 {name=l1 sig_type=std_logic lab=VBP}
 C {devices/ipin.sym} 290 -350 0 0 {name=p1 lab=STARTUP_1V8}
 C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 360 -350 0 0 {name=x4 }
 C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} 400 -190 3 1 {name=x1 }
-C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 360 -250 0 0 {name=x3 }
+C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} 820 -910 0 0 {name=xc1[2:0]}

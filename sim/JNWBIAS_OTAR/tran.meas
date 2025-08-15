@@ -1,0 +1,17 @@
+* Measure JNWBIAS_OTAR
+.control
+
+load {cicname}.raw
+
+let cut-tstart = 0.5u
+let cut-tstop = 1u
+cutout
+
+echo "MEAS_START"
+
+let pidd = -i(vdd)
+
+meas tran idd AVG pidd
+
+echo "MEAS_END"
+.endc
