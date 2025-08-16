@@ -47,7 +47,7 @@ rect 300 1000 1100 3100
 rect 1700 1700 2500 2500
 rect 3100 1000 3900 3100
 rect 300 300 3900 1000
-use sky130_fd_pr__rf_pnp_05v5_W3p40L3p40  sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0 $PDKPATH/libs.ref/sky130_fd_pr/mag
+use sky130_fd_pr__rf_pnp_05v5_W3p40L3p40 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0 $PDKPATH/libs.ref/sky130_fd_pr/mag
 array 0 2 1420 0 2 1420
 timestamp 1755333750
 transform 1 0 0 0 1 0
