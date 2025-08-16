@@ -125,7 +125,7 @@ C {devices/lab_pin.sym} 980 -430 0 1 {name=l5 sig_type=std_logic lab=VR1}
 C {JNW_TR_SKY130A/JNWTR_RPPO4.sym} 980 -410 1 0 {name=xab3}
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 940 -890 0 0 {name=xca2}
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 680 -890 0 1 {name=xca1}
-C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} 790 -910 0 0 {name=xd1[1:0]}
+C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} 790 -960 2 1 {name=xd1[2:0]}
 C {JNW_BIAS_SKY130A/JNWBIAS_OTAR.sym} 800 -710 1 1 {name=xad6}
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 1140 -890 0 0 {name=xca3[3:0]}
 C {JNW_TR_SKY130A/JNWTR_RPPO2.sym} 980 -310 1 0 {name=xac2}
