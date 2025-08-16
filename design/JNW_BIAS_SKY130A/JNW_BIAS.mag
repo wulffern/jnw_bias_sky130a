@@ -348,5 +348,5 @@ flabel metal1 s 224 1844 416 2970 0 FreeSans 1600 0 0 0 VR1
 flabel metal2 s 3291 944 5364 1136 0 FreeSans 1600 0 0 0 VD1
 flabel metal1 s 2600 3160 2840 5405 0 FreeSans 1600 0 0 0 VD2
 << properties >>
-string FIXED_BBOX 0 0 10818 9800
+string FIXED_BBOX -800 -600 10000 10600
 << end >>
