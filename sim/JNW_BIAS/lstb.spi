@@ -50,7 +50,7 @@ X999 LPI LPO loopgainprobe
 .save i(vdd)
 
 .control
-optran 0 0 0 10n 10u 0
+optran 0 0 0 10n 20u 0
 op
 write {cicname}_OP.raw
 
