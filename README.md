@@ -16,8 +16,7 @@ Example of a PTAT, and a stable current bias source
 
 PTAT is based on traditional bandgap structure
 
-Stable current is based on Banba
-
+Stable current with temperature is based on Banba
 
 # What
 
@@ -37,7 +36,9 @@ Stable current is based on Banba
 | Temperature | -40 | 27              | 125 | C    |
 
 
-# JNW_BIAS (PTAT Current Source)
+# JNW_BIAS 
+
+Current proportional to temperature
 
 ## Signal interface 
 
@@ -48,7 +49,9 @@ Stable current is based on Banba
 | IBP_1U[3:0] | Input     | VDD_1V8 | PTAT bias currents (approx 1 uA) |
 | VSS         | Input     | Ground  |                                  |
 
-# JNW_BIAS_IBS (Stable with Temperature Current Source)
+# JNW_BIAS_IBS 
+
+Current stable with temperature
 
 # Signal interface 
 
