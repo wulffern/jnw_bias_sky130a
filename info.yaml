@@ -3,13 +3,13 @@ cell: JNW_BIAS
 # Your name
 author: Carsten Wulff
 # Your github username
-github: analogicus
+github: wulffern
 # Something funny and descriptive
 tagline: To compare, you need a reference
 # Your email, if you so wish
 email: carsten@wulff.no
 # Your github site, usually <github username>.github.io
-url: analogicus.github.io
+url: analogicus.com
 doc:
   # Make docs
   libraries:
