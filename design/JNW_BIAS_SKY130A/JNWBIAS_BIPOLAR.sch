@@ -27,3 +27,4 @@ spiceprefix=X
 C {devices/ipin.sym} -60 20 0 0 {name=p1 lab=VSS}
 C {devices/ipin.sym} 50 -130 1 0 {name=p2 lab=VD1}
 C {devices/ipin.sym} 400 -140 1 0 {name=p3 lab=VD2}
+C {cborder/border_xs.sym} -200 70 0 0 {user="Carsten Wulff" company="Carsten Wulff Software"}

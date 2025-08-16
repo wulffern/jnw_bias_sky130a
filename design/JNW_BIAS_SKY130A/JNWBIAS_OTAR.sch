@@ -51,7 +51,7 @@ C {JNW_ATR_SKY130A/JNWATR_PCH_12C5F0.sym} 270 -230 0 0 {name=xb1}
 C {JNW_ATR_SKY130A/JNWATR_PCH_12C5F0.sym} 510 -230 0 1 {name=xb2}
 C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 350 -100 0 1 {name=xc1}
 C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 430 -100 0 0 {name=xc2}
-C {cborder/border_xs.sym} 20 -10 0 0 {}
+C {cborder/border_xs.sym} 20 -10 0 0 {user="Carsten Wulff" company="Carsten Wulff Software"}
 C {devices/lab_wire.sym} 310 -280 0 0 {name=p7 sig_type=std_logic lab=VS}
 C {devices/lab_wire.sym} 310 -160 0 0 {name=p8 sig_type=std_logic lab=VD}
 C {JNW_TR_SKY130A/JNWTR_RPPO2.sym} 380 -340 3 0 {name=xa1 }

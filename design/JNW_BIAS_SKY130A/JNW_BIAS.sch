@@ -129,7 +129,7 @@ C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} 790 -960 2 1 {name=xd1[2:0]}
 C {JNW_BIAS_SKY130A/JNWBIAS_OTAR.sym} 800 -710 1 1 {name=xad6}
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 1140 -890 0 0 {name=xca3[3:0]}
 C {JNW_TR_SKY130A/JNWTR_RPPO2.sym} 980 -310 1 0 {name=xac2}
-C {cborder/border_xs.sym} 340 -40 0 0 {}
+C {cborder/border_xs.sym} 340 -40 0 0 {user="Carsten Wulff" company="Carsten Wulff Software"}
 C {devices/ipin.sym} 300 -280 0 0 {name=p1 lab=STARTUP_1V8}
 C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 420 -280 0 0 {name=xg7 }
 C {JNW_TR_SKY130A/JNWTR_RPPO4.sym} 460 -210 3 1 {name=xf1}
