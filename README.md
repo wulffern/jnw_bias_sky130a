@@ -49,6 +49,8 @@ Current proportional to temperature
 | IBP_1U[3:0] | Input     | VDD_1V8 | PTAT bias currents (approx 1 uA) |
 | VSS         | Input     | Ground  |                                  |
 
+
+
 # JNW_BIAS_IBS 
 
 Current stable with temperature
