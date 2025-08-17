@@ -15,6 +15,7 @@ doc:
   libraries:
      JNW_BIAS_SKY130A:
          - JNW_BIAS
+         - JNWBIAS_OTACM
          - JNW_BIAS_IBS
          - JNWBIAS_OTAR
          - JNWBIAS_BIPOLAR

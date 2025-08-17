@@ -10,4 +10,3 @@ $$ \Delta V_D = \frac{kT}{q} ln( 8 \times 8)$$
 factor of 8 comes from the bipolar size difference. 
 
 
-<!--insert_end: ../sim/JNW_BIAS/README.md -->
