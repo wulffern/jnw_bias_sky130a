@@ -13,7 +13,9 @@ print i(vdd)
 print v(xdut.vd1)
 
 let vdiff = v(xdut.vd1) - v(xdut.vr1)
+let vd = v(xdut.vd1) - v(xdut.vd2)
 print vdiff
+print vd
 print v(lpo)
 print v(xdut.vr1)
 print v(xdut.vd1)

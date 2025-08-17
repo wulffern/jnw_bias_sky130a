@@ -25,7 +25,7 @@
 *-----------------------------------------------------------------
 VSS  VSS  0     dc 0
 VDD  VDD_1V8  VSS  pwl 0 0 10n {AVDD}
-VSTART  STARTUP_1V8  VSS  pwl 0 0 10n {AVDD} 50n {AVDD} 51n  0
+VSTART  STARTUP_1V8  VSS  pwl 0 0 10n {AVDD} {{t_start}-1n} {AVDD} {t_start}  0
 
 V0 IBP_1U<0> 0 dc 0.5
 V1 IBP_1U<1> 0 dc 0.6
@@ -37,6 +37,7 @@ VLP LPI LPO dc 0
 *-----------------------------------------------------------------
 * DUT
 *-----------------------------------------------------------------
+
 .include ../xdut.spi
 
 
@@ -44,8 +45,17 @@ VLP LPI LPO dc 0
 *----------------------------------------------------------------
 * PROBE
 *----------------------------------------------------------------
+#ifdef Debug
 .save all
+#endif
+
+.save v(LPI)
+.save i(V0)
 .save i(V1)
+.save i(V2)
+.save i(V3)
+.save i(vdd)
+
 
 
 *----------------------------------------------------------------
@@ -59,11 +69,10 @@ unset askquit
 
 optran 0 0 0 1n 1u 0
 
-
-tran 1n 1u 0.2u
+tran 1n {t_end}
 write
-quit
 
+quit
 
 .endc
 

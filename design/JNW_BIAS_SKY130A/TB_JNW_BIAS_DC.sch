@@ -20,9 +20,8 @@ subdivx=4
 xlabmag=1.0
 ylabmag=1.0
 node="i(v2)
-i(v3)
-i(v5)"
-color="5 6 11"
+i(v3)"
+color="5 6"
 dataset=-1
 unitx=1
 logx=0
@@ -45,9 +44,8 @@ subdivx=4
 xlabmag=1.0
 ylabmag=1.0
 node="\\"derivative; i(v2) deriv0()\\"
-\\"derivative; i(v3) deriv0()\\"
-\\"derivative; i(v5) deriv0()\\""
-color="5 6 11"
+\\"derivative; i(v3) deriv0()\\""
+color="5 6"
 dataset=-1
 unitx=1
 logx=0
@@ -91,19 +89,6 @@ N 150 -200 170 -200 {lab=LPE1}
 N 250 -130 250 -30 {lab=GND}
 N 250 -220 250 -190 {lab=#net2}
 N 150 -220 250 -220 {lab=#net2}
-N 220 -280 220 -30 {lab=GND}
-N -170 -300 -170 -200 {lab=GND}
-N -280 -320 -170 -320 {lab=#net1}
-N -280 -320 -280 -220 {lab=#net1}
-N 130 -300 150 -300 {lab=#net3}
-N 150 -300 150 -290 {lab=#net3}
-N 150 -290 150 -280 {lab=#net3}
-N 130 -280 150 -280 {lab=#net3}
-N 180 -390 180 -320 {lab=GND}
-N 130 -450 180 -450 {lab=#net4}
-N 130 -450 130 -320 {lab=#net4}
-N 180 -280 220 -280 {lab=GND}
-N 180 -320 180 -280 {lab=GND}
 N 140 -100 180 -100 {lab=IBP_1U[3:0]}
 C {JNW_BIAS_SKY130A/JNW_BIAS.sym} -10 -80 0 0 {name=x1}
 C {devices/vsource.sym} -280 -80 0 0 {name=V1 value=1.8 savecurrent=false}
@@ -141,7 +126,5 @@ exit
 .end
 
 "}
-C {JNW_BIAS_SKY130A/JNW_BIAS_TCOMP.sym} -20 -300 0 0 {name=x4}
-C {devices/vsource.sym} 180 -420 0 0 {name=V5 value=0.5 savecurrent=false}
 C {devices/lab_wire.sym} 150 -100 0 1 {name=p3 sig_type=std_logic lab=IBP_1U[3:0]}
 C {devices/lab_wire.sym} 290 -100 0 1 {name=p4 sig_type=std_logic lab=IBP_1U[0]}

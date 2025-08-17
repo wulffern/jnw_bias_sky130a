@@ -79,10 +79,6 @@ N 1180 -790 1250 -790 {
 lab=IBP_1U[3:0]}
 N 830 -560 830 -510 {
 lab=VDD_1V8}
-N 830 -510 1090 -510 {
-lab=VDD_1V8}
-N 1090 -970 1090 -510 {
-lab=VDD_1V8}
 N 810 -480 810 -410 {
 lab=VR1}
 N 810 -560 810 -480 {
@@ -92,20 +88,17 @@ lab=VD1}
 N 980 -330 980 -310 {lab=#net1}
 N 890 -270 960 -270 {lab=VSS}
 N 1180 -860 1180 -790 {lab=IBP_1U[3:0]}
-N 460 -280 550 -280 {lab=VSS}
-N 460 -450 460 -310 {lab=LPI}
-N 360 -280 420 -280 {lab=STARTUP_1V8}
-N 460 -250 460 -210 {lab=#net2}
+N 460 -420 550 -420 {lab=VSS}
+N 360 -420 420 -420 {lab=STARTUP_1V8}
+N 460 -390 460 -350 {lab=#net2}
 N 460 -130 460 -100 {lab=VSS}
 N 480 -170 550 -170 {lab=VSS}
-N 300 -280 360 -280 {lab=STARTUP_1V8}
+N 300 -420 360 -420 {lab=STARTUP_1V8}
 N 550 -280 550 -150 {lab=VSS}
 N 790 -900 790 -890 {lab=LPI}
 N 680 -830 680 -810 {lab=LPI}
 N 680 -810 800 -810 {lab=LPI}
 N 770 -560 770 -510 {lab=VSS}
-N 550 -510 550 -280 {lab=VSS}
-N 550 -510 770 -510 {lab=VSS}
 N 640 -410 640 -210 {lab=VD1}
 N 640 -410 750 -410 {lab=VD1}
 N 550 -100 600 -100 {lab=VSS}
@@ -114,6 +107,21 @@ N 460 -810 680 -810 {lab=LPI}
 N 460 -810 460 -450 {lab=LPI}
 N 890 -370 890 -270 {lab=VSS}
 N 550 -270 890 -270 {lab=VSS}
+N 1090 -370 1120 -370 {lab=VSS}
+N 1050 -400 1050 -370 {lab=VR1}
+N 1050 -400 1090 -400 {lab=VR1}
+N 980 -460 1090 -460 {lab=VR1}
+N 980 -210 1090 -210 {lab=VD2}
+N 460 -320 550 -320 {lab=VSS}
+N 460 -290 460 -210 {lab=#net3}
+N 420 -370 420 -320 {lab=#net2}
+N 420 -370 460 -370 {lab=#net2}
+N 550 -420 550 -280 {lab=VSS}
+N 770 -510 770 -270 {lab=VSS}
+N 920 -970 920 -510 {lab=VDD_1V8}
+N 830 -510 920 -510 {lab=VDD_1V8}
+N 1090 -460 1090 -400 {lab=VR1}
+N 1090 -340 1090 -210 {lab=VD2}
 C {devices/ipin.sym} 300 -970 0 0 {name=p4 lab=VDD_1V8}
 C {devices/ipin.sym} 320 -100 0 0 {name=p5 lab=VSS}
 C {devices/opin.sym} 850 -810 0 0 {name=p7 lab=LPI}
@@ -122,15 +130,18 @@ C {devices/opin.sym} 1250 -790 0 0 {name=p9 lab=IBP_1U[3:0]}
 C {devices/lab_pin.sym} 640 -370 0 1 {name=l2 sig_type=std_logic lab=VD1}
 C {devices/lab_pin.sym} 980 -220 0 1 {name=l4 sig_type=std_logic lab=VD2}
 C {devices/lab_pin.sym} 980 -430 0 1 {name=l5 sig_type=std_logic lab=VR1}
-C {JNW_TR_SKY130A/JNWTR_RPPO4.sym} 980 -410 1 0 {name=xab3}
+C {JNW_TR_SKY130A/JNWTR_RPPO8.sym} 980 -410 1 0 {name=xab3}
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 940 -890 0 0 {name=xca2}
-C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 680 -890 0 1 {name=xca1}
-C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} 790 -960 2 1 {name=xd1[2:0]}
-C {JNW_BIAS_SKY130A/JNWBIAS_OTAR.sym} 800 -710 1 1 {name=xad6}
+C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 680 -890 0 1 {name=xca1[7:0]}
+C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} 790 -960 2 1 {name=xd1[6:0]}
+C {JNW_BIAS_SKY130A/JNWBIAS_OTACM.sym} 800 -710 1 1 {name=xad6}
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 1140 -890 0 0 {name=xca3[3:0]}
-C {JNW_TR_SKY130A/JNWTR_RPPO2.sym} 980 -310 1 0 {name=xac2}
+C {JNW_TR_SKY130A/JNWTR_RPPO4.sym} 980 -310 1 0 {name=xac2}
 C {cborder/border_xs.sym} 340 -40 0 0 {user="Carsten Wulff" company="Carsten Wulff Software"}
-C {devices/ipin.sym} 300 -280 0 0 {name=p1 lab=STARTUP_1V8}
-C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 420 -280 0 0 {name=xg7 }
+C {devices/ipin.sym} 300 -420 0 0 {name=p1 lab=STARTUP_1V8}
+C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 420 -420 0 0 {name=xg3 }
 C {JNW_TR_SKY130A/JNWTR_RPPO4.sym} 460 -210 3 1 {name=xf1}
 C {JNW_BIAS_SKY130A/JNWBIAS_BIPOLAR.sym} 800 -110 0 0 {name=xe1}
+C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 1050 -370 0 0 {name=xg1 }
+C {devices/lab_pin.sym} 1120 -370 0 1 {name=l1 sig_type=std_logic lab=VSS}
+C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 420 -320 0 0 {name=xg2 }

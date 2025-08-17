@@ -9,73 +9,154 @@ Check stability
 |**Name**|**Parameter**|**Description**| |**Min**|**Typ**|**Max**| Unit|
 |:---|:---|:---|---:|:---:|:---:|:---:| ---:|
 |**Gain Margin**|**gm\_db** || **Spec**  | **-50.00** | **-10.00** | **-10.00** | **dB** |
-| | | |<a href='results/lstb_Sch_typical.html'>Sch_typ</a>| | -17.49 |  | |
-| | | |<a href='results/lstb_Lay_typical.html'>Lay_typ</a>| | -17.60 |  | |
-| | | |<a href='results/lstb_Sch_etc.html'>Sch_etc</a>|-31.31 | -19.14 | -11.91 | |
-| | | |<a href='results/lstb_Lay_etc.html'>Lay_etc</a>|-28.49 | -17.21 | -13.81 | |
-| | | |<a href='results/lstb_Sch_mc.html'>Sch_3std</a>|-22.25 | -19.58 | -16.91 | |
-| | | |<a href='results/lstb_Lay_mc.html'>Lay_3std</a>|-19.99 | -17.66 | -15.33 | |
-|**DC gain**|**lf\_gain** || **Spec**  | **30.00** | **40.00** | **55.00** | **dB** |
-| | | |<a href='results/lstb_Sch_typical.html'>Sch_typ</a>| | 37.20 |  | |
-| | | |<a href='results/lstb_Lay_typical.html'>Lay_typ</a>| | 37.07 |  | |
-| | | |<a href='results/lstb_Sch_etc.html'>Sch_etc</a>|<span style='color:red'>**-9.49**</span> | 34.77 | 39.13 | |
-| | | |<a href='results/lstb_Lay_etc.html'>Lay_etc</a>|<span style='color:red'>**12.06**</span> | 34.80 | 38.37 | |
-| | | |<a href='results/lstb_Sch_mc.html'>Sch_3std</a>|35.15 | 37.20 | 39.24 | |
-| | | |<a href='results/lstb_Lay_mc.html'>Lay_3std</a>|34.27 | 37.03 | 39.79 | |
+| | | |<a href='results/lstb_Sch_typical.html'>Sch_typ</a>| | -17.17 |  | |
+| | | |<a href='results/lstb_Lay_typical.html'>Lay_typ</a>| |  |  | |
+| | | |<a href='results/lstb_Sch_etc.html'>Sch_etc</a>|-30.50 | -17.09 | -12.04 | |
+| | | |<a href='results/lstb_Lay_etc.html'>Lay_etc</a>| |  |  | |
+| | | |<a href='results/lstb_Sch_mc.html'>Sch_3std</a>|-18.44 | -17.18 | -15.91 | |
+| | | |<a href='results/lstb_Lay_mc.html'>Lay_3std</a>| |  |  | |
+|**DC gain**|**lf\_gain** || **Spec**  | **25.00** | **40.00** | **55.00** | **dB** |
+| | | |<a href='results/lstb_Sch_typical.html'>Sch_typ</a>| | 42.79 |  | |
+| | | |<a href='results/lstb_Lay_typical.html'>Lay_typ</a>| |  |  | |
+| | | |<a href='results/lstb_Sch_etc.html'>Sch_etc</a>|40.60 | 42.66 | 45.21 | |
+| | | |<a href='results/lstb_Lay_etc.html'>Lay_etc</a>| |  |  | |
+| | | |<a href='results/lstb_Sch_mc.html'>Sch_3std</a>|40.92 | 42.74 | 44.56 | |
+| | | |<a href='results/lstb_Lay_mc.html'>Lay_3std</a>| |  |  | |
 |**Phase Margin**|**pm\_deg** || **Spec**  | **45.00** | **60.00** | **90.00** |  |
-| | | |<a href='results/lstb_Sch_typical.html'>Sch_typ</a>| | 66.14 |  | |
-| | | |<a href='results/lstb_Lay_typical.html'>Lay_typ</a>| | 68.49 |  | |
-| | | |<a href='results/lstb_Sch_etc.html'>Sch_etc</a>|50.83 | 71.60 | 86.73 | |
-| | | |<a href='results/lstb_Lay_etc.html'>Lay_etc</a>|<span style='color:red'>**43.83**</span> | 67.64 | 86.18 | |
-| | | |<a href='results/lstb_Sch_mc.html'>Sch_3std</a>|68.67 | 74.01 | 79.35 | |
-| | | |<a href='results/lstb_Lay_mc.html'>Lay_3std</a>|63.84 | 68.51 | 73.17 | |
-|**Unity Gain Frequency**|**ug** || **Spec**  | **0.50** | **15.00** | **50.00** | **MHz** |
-| | | |<a href='results/lstb_Sch_typical.html'>Sch_typ</a>| | 15.63 |  | |
-| | | |<a href='results/lstb_Lay_typical.html'>Lay_typ</a>| | 10.23 |  | |
-| | | |<a href='results/lstb_Sch_etc.html'>Sch_etc</a>|<span style='color:red'>**0.00**</span> | 13.23 | 40.17 | |
-| | | |<a href='results/lstb_Lay_etc.html'>Lay_etc</a>|<span style='color:red'>**0.00**</span> | 10.56 | 31.17 | |
-| | | |<a href='results/lstb_Sch_mc.html'>Sch_3std</a>|10.28 | 12.94 | 15.61 | |
-| | | |<a href='results/lstb_Lay_mc.html'>Lay_3std</a>|7.66 | 10.21 | 12.77 | |
+| | | |<a href='results/lstb_Sch_typical.html'>Sch_typ</a>| | 63.44 |  | |
+| | | |<a href='results/lstb_Lay_typical.html'>Lay_typ</a>| |  |  | |
+| | | |<a href='results/lstb_Sch_etc.html'>Sch_etc</a>|45.48 | 62.80 | 84.62 | |
+| | | |<a href='results/lstb_Lay_etc.html'>Lay_etc</a>| |  |  | |
+| | | |<a href='results/lstb_Sch_mc.html'>Sch_3std</a>|59.53 | 63.50 | 67.46 | |
+| | | |<a href='results/lstb_Lay_mc.html'>Lay_3std</a>| |  |  | |
+|**Unity Gain Frequency**|**ug** || **Spec**  | **0.50** | **15.00** | **100.00** | **MHz** |
+| | | |<a href='results/lstb_Sch_typical.html'>Sch_typ</a>| | 6.43 |  | |
+| | | |<a href='results/lstb_Lay_typical.html'>Lay_typ</a>| |  |  | |
+| | | |<a href='results/lstb_Sch_etc.html'>Sch_etc</a>|0.70 | 7.18 | 14.31 | |
+| | | |<a href='results/lstb_Lay_etc.html'>Lay_etc</a>| |  |  | |
+| | | |<a href='results/lstb_Sch_mc.html'>Sch_3std</a>|5.24 | 6.41 | 7.58 | |
+| | | |<a href='results/lstb_Lay_mc.html'>Lay_3std</a>| |  |  | |
 |**PMOS gate**|**v(lpo)** || **Spec**  | **0.45** | **0.70** | **1.10** | **V** |
 | | | |<a href='results/lstb_Sch_typical.html'>Sch_typ</a>| | 0.76 |  | |
-| | | |<a href='results/lstb_Lay_typical.html'>Lay_typ</a>| | 0.76 |  | |
-| | | |<a href='results/lstb_Sch_etc.html'>Sch_etc</a>|0.45 | 0.78 | 1.05 | |
-| | | |<a href='results/lstb_Lay_etc.html'>Lay_etc</a>|0.48 | 0.78 | 1.05 | |
+| | | |<a href='results/lstb_Lay_typical.html'>Lay_typ</a>| |  |  | |
+| | | |<a href='results/lstb_Sch_etc.html'>Sch_etc</a>|0.53 | 0.78 | 1.05 | |
+| | | |<a href='results/lstb_Lay_etc.html'>Lay_etc</a>| |  |  | |
 | | | |<a href='results/lstb_Sch_mc.html'>Sch_3std</a>|0.74 | 0.76 | 0.78 | |
-| | | |<a href='results/lstb_Lay_mc.html'>Lay_3std</a>|0.73 | 0.76 | 0.79 | |
-|**Diode voltage**|**v(xdut.vd1)** || **Spec**  | **0.45** | **0.70** | **1.00** | **V** |
-| | | |<a href='results/lstb_Sch_typical.html'>Sch_typ</a>| | 0.68 |  | |
-| | | |<a href='results/lstb_Lay_typical.html'>Lay_typ</a>| | 0.68 |  | |
-| | | |<a href='results/lstb_Sch_etc.html'>Sch_etc</a>|0.50 | 0.65 | 0.82 | |
-| | | |<a href='results/lstb_Lay_etc.html'>Lay_etc</a>|0.50 | 0.65 | 0.82 | |
-| | | |<a href='results/lstb_Sch_mc.html'>Sch_3std</a>|0.67 | 0.68 | 0.69 | |
-| | | |<a href='results/lstb_Lay_mc.html'>Lay_3std</a>|0.67 | 0.68 | 0.70 | |
-|**Output current**|**i(v1)** || **Spec**  | **0.80** | **1.00** | **2.00** | **uA** |
-| | | |<a href='results/lstb_Sch_typical.html'>Sch_typ</a>| | 1.24 |  | |
-| | | |<a href='results/lstb_Lay_typical.html'>Lay_typ</a>| | 1.06 |  | |
-| | | |<a href='results/lstb_Sch_etc.html'>Sch_etc</a>|0.85 | 1.35 | <span style='color:red'>**2.50**</span> | |
-| | | |<a href='results/lstb_Lay_etc.html'>Lay_etc</a>|<span style='color:red'>**0.67**</span> | 1.39 | 1.96 | |
-| | | |<a href='results/lstb_Sch_mc.html'>Sch_3std</a>|<span style='color:red'>**0.63**</span> | 1.08 | 1.54 | |
-| | | |<a href='results/lstb_Lay_mc.html'>Lay_3std</a>|<span style='color:red'>**0.55**</span> | 1.07 | 1.58 | |
-|**VDD current**|**i(vdd)** || **Spec**  | **5.00** | **10.00** | **40.00** | **uA** |
-| | | |<a href='results/lstb_Sch_typical.html'>Sch_typ</a>| | 13.05 |  | |
-| | | |<a href='results/lstb_Lay_typical.html'>Lay_typ</a>| | <span style='color:red'>**-0.75**</span> |  | |
-| | | |<a href='results/lstb_Sch_etc.html'>Sch_etc</a>|<span style='color:red'>**-3.40**</span> | 10.53 | 32.89 | |
-| | | |<a href='results/lstb_Lay_etc.html'>Lay_etc</a>|<span style='color:red'>**-5.97**</span> | 11.92 | 34.11 | |
-| | | |<a href='results/lstb_Sch_mc.html'>Sch_3std</a>|<span style='color:red'>**-9.43**</span> | <span style='color:red'>**3.00**</span> | 15.42 | |
-| | | |<a href='results/lstb_Lay_mc.html'>Lay_3std</a>|<span style='color:red'>**-2.00**</span> | <span style='color:red'>**-0.72**</span> | <span style='color:red'>**0.56**</span> | |
-|**VSS current**|**i(vss)** || **Spec**  | **5.00** | **10.00** | **40.00** | **uA** |
-| | | |<a href='results/lstb_Sch_typical.html'>Sch_typ</a>| | 12.10 |  | |
-| | | |<a href='results/lstb_Lay_typical.html'>Lay_typ</a>| | <span style='color:red'>**-2.14**</span> |  | |
-| | | |<a href='results/lstb_Sch_etc.html'>Sch_etc</a>|<span style='color:red'>**-4.61**</span> | 9.68 | 31.32 | |
-| | | |<a href='results/lstb_Lay_etc.html'>Lay_etc</a>|<span style='color:red'>**-7.02**</span> | 10.59 | 32.52 | |
-| | | |<a href='results/lstb_Sch_mc.html'>Sch_3std</a>|<span style='color:red'>**-11.10**</span> | <span style='color:red'>**1.70**</span> | 14.49 | |
-| | | |<a href='results/lstb_Lay_mc.html'>Lay_3std</a>|<span style='color:red'>**-2.93**</span> | <span style='color:red'>**-2.12**</span> | <span style='color:red'>**-1.31**</span> | |
+| | | |<a href='results/lstb_Lay_mc.html'>Lay_3std</a>| |  |  | |
+|**Delta diode voltage**|**vd** || **Spec**  | **80.00** | **106.00** | **150.00** | **mV** |
+| | | |<a href='results/lstb_Sch_typical.html'>Sch_typ</a>| | 109.24 |  | |
+| | | |<a href='results/lstb_Lay_typical.html'>Lay_typ</a>| |  |  | |
+| | | |<a href='results/lstb_Sch_etc.html'>Sch_etc</a>|84.61 | 115.00 | 145.76 | |
+| | | |<a href='results/lstb_Lay_etc.html'>Lay_etc</a>| |  |  | |
+| | | |<a href='results/lstb_Sch_mc.html'>Sch_3std</a>|104.36 | 109.14 | 113.92 | |
+| | | |<a href='results/lstb_Lay_mc.html'>Lay_3std</a>| |  |  | |
+|**Output current**|**i(v1)** || **Spec**  | **0.50** | **1.00** | **2.00** | **uA** |
+| | | |<a href='results/lstb_Sch_typical.html'>Sch_typ</a>| | 1.08 |  | |
+| | | |<a href='results/lstb_Lay_typical.html'>Lay_typ</a>| |  |  | |
+| | | |<a href='results/lstb_Sch_etc.html'>Sch_etc</a>|0.73 | 1.10 | 1.73 | |
+| | | |<a href='results/lstb_Lay_etc.html'>Lay_etc</a>| |  |  | |
+| | | |<a href='results/lstb_Sch_mc.html'>Sch_3std</a>|0.66 | 1.07 | 1.48 | |
+| | | |<a href='results/lstb_Lay_mc.html'>Lay_3std</a>| |  |  | |
 |**VD Error**|**vdiff** || **Spec**  | **-6.00** | **0.00** | **6.00** | **mV** |
-| | | |<a href='results/lstb_Sch_typical.html'>Sch_typ</a>| | -1.20 |  | |
-| | | |<a href='results/lstb_Lay_typical.html'>Lay_typ</a>| | -1.37 |  | |
-| | | |<a href='results/lstb_Sch_etc.html'>Sch_etc</a>|<span style='color:red'>**-77.59**</span> | -1.88 | -0.99 | |
-| | | |<a href='results/lstb_Lay_etc.html'>Lay_etc</a>|<span style='color:red'>**-40.92**</span> | -1.93 | -1.02 | |
-| | | |<a href='results/lstb_Sch_mc.html'>Sch_3std</a>|<span style='color:red'>**-19.38**</span> | -1.75 | <span style='color:red'>**15.88**</span> | |
-| | | |<a href='results/lstb_Lay_mc.html'>Lay_3std</a>|<span style='color:red'>**-17.30**</span> | -1.34 | <span style='color:red'>**14.62**</span> | |
+| | | |<a href='results/lstb_Sch_typical.html'>Sch_typ</a>| | 0.36 |  | |
+| | | |<a href='results/lstb_Lay_typical.html'>Lay_typ</a>| |  |  | |
+| | | |<a href='results/lstb_Sch_etc.html'>Sch_etc</a>|-0.05 | 0.36 | 1.36 | |
+| | | |<a href='results/lstb_Lay_etc.html'>Lay_etc</a>| |  |  | |
+| | | |<a href='results/lstb_Sch_mc.html'>Sch_3std</a>|<span style='color:red'>**-24.18**</span> | 0.65 | <span style='color:red'>**25.48**</span> | |
+| | | |<a href='results/lstb_Lay_mc.html'>Lay_3std</a>| |  |  | |
+
+### Transient (tran)
+
+Check settling time and current variation
+
+
+
+|**Name**|**Parameter**|**Description**| |**Min**|**Typ**|**Max**| Unit|
+|:---|:---|:---|---:|:---:|:---:|:---:| ---:|
+||**t\_settle** || **Spec**  | **0.01** | **0.05** | **2.00** | **us** |
+| | | |<a href='results/tran_Sch_typical.html'>Sch_typ</a>| | 0.14 |  | |
+| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| |  |  | |
+| | | |<a href='results/tran_Sch_etc.html'>Sch_etc</a>|0.13 | 0.22 | 1.20 | |
+| | | |<a href='results/tran_Lay_etc.html'>Lay_etc</a>| |  |  | |
+| | | |<a href='results/tran_Sch_mc.html'>Sch_3std</a>|0.13 | 0.14 | 0.16 | |
+| | | |<a href='results/tran_Lay_mc.html'>Lay_3std</a>| |  |  | |
+||**i0** || **Spec**  | **0.500** | **1.000** | **2.000** | **uA** |
+| | | |<a href='results/tran_Sch_typical.html'>Sch_typ</a>| | 1.162 |  | |
+| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| |  |  | |
+| | | |<a href='results/tran_Sch_etc.html'>Sch_etc</a>|0.808 | 1.171 | 1.665 | |
+| | | |<a href='results/tran_Lay_etc.html'>Lay_etc</a>| |  |  | |
+| | | |<a href='results/tran_Sch_mc.html'>Sch_3std</a>|0.730 | 1.158 | 1.585 | |
+| | | |<a href='results/tran_Lay_mc.html'>Lay_3std</a>| |  |  | |
+||**i1** || **Spec**  | **0.500** | **1.000** | **2.000** | **uA** |
+| | | |<a href='results/tran_Sch_typical.html'>Sch_typ</a>| | 1.159 |  | |
+| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| |  |  | |
+| | | |<a href='results/tran_Sch_etc.html'>Sch_etc</a>|0.805 | 1.167 | 1.661 | |
+| | | |<a href='results/tran_Lay_etc.html'>Lay_etc</a>| |  |  | |
+| | | |<a href='results/tran_Sch_mc.html'>Sch_3std</a>|0.775 | 1.136 | 1.497 | |
+| | | |<a href='results/tran_Lay_mc.html'>Lay_3std</a>| |  |  | |
+||**i2** || **Spec**  | **0.500** | **1.000** | **2.000** | **uA** |
+| | | |<a href='results/tran_Sch_typical.html'>Sch_typ</a>| | 1.155 |  | |
+| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| |  |  | |
+| | | |<a href='results/tran_Sch_etc.html'>Sch_etc</a>|0.803 | 1.164 | 1.657 | |
+| | | |<a href='results/tran_Lay_etc.html'>Lay_etc</a>| |  |  | |
+| | | |<a href='results/tran_Sch_mc.html'>Sch_3std</a>|0.701 | 1.129 | 1.558 | |
+| | | |<a href='results/tran_Lay_mc.html'>Lay_3std</a>| |  |  | |
+||**i3** || **Spec**  | **0.500** | **1.000** | **2.000** | **uA** |
+| | | |<a href='results/tran_Sch_typical.html'>Sch_typ</a>| | 1.152 |  | |
+| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| |  |  | |
+| | | |<a href='results/tran_Sch_etc.html'>Sch_etc</a>|0.800 | 1.160 | 1.653 | |
+| | | |<a href='results/tran_Lay_etc.html'>Lay_etc</a>| |  |  | |
+| | | |<a href='results/tran_Sch_mc.html'>Sch_3std</a>|0.777 | 1.133 | 1.489 | |
+| | | |<a href='results/tran_Lay_mc.html'>Lay_3std</a>| |  |  | |
+||**idd** || **Spec**  | **5.000** | **30.000** | **60.000** | **uA** |
+| | | |<a href='results/tran_Sch_typical.html'>Sch_typ</a>| | 25.986 |  | |
+| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| |  |  | |
+| | | |<a href='results/tran_Sch_etc.html'>Sch_etc</a>|11.450 | 26.840 | 50.746 | |
+| | | |<a href='results/tran_Lay_etc.html'>Lay_etc</a>| |  |  | |
+| | | |<a href='results/tran_Sch_mc.html'>Sch_3std</a>|21.958 | 25.762 | 29.566 | |
+| | | |<a href='results/tran_Lay_mc.html'>Lay_3std</a>| |  |  | |
+
+### DC (dc)
+
+Check temperature performance
+
+
+
+|**Name**|**Parameter**|**Description**| |**Min**|**Typ**|**Max**| Unit|
+|:---|:---|:---|---:|:---:|:---:|:---:| ---:|
+||**ibp\_err\_max** || **Spec**  | **-30.00** | **0.00** | **20.00** | **nA** |
+| | | |<a href='results/dc_Sch_typical.html'>Sch_typ</a>| | 8.46 |  | |
+| | | |<a href='results/dc_Lay_typical.html'>Lay_typ</a>| |  |  | |
+| | | |<a href='results/dc_Sch_etc.html'>Sch_etc</a>|7.48 | 8.47 | 9.67 | |
+| | | |<a href='results/dc_Lay_etc.html'>Lay_etc</a>| |  |  | |
+| | | |<a href='results/dc_Sch_mc.html'>Sch_3std</a>|4.14 | 8.59 | 13.04 | |
+| | | |<a href='results/dc_Lay_mc.html'>Lay_3std</a>| |  |  | |
+||**ibp\_err\_min** || **Spec**  | **-30.00** | **0.00** | **20.00** | **nA** |
+| | | |<a href='results/dc_Sch_typical.html'>Sch_typ</a>| | -19.91 |  | |
+| | | |<a href='results/dc_Lay_typical.html'>Lay_typ</a>| |  |  | |
+| | | |<a href='results/dc_Sch_etc.html'>Sch_etc</a>|-23.45 | -19.97 | -17.39 | |
+| | | |<a href='results/dc_Lay_etc.html'>Lay_etc</a>| |  |  | |
+| | | |<a href='results/dc_Sch_mc.html'>Sch_3std</a>|-26.31 | -19.86 | -13.41 | |
+| | | |<a href='results/dc_Lay_mc.html'>Lay_3std</a>| |  |  | |
+||**imax** || **Spec**  | **0.50** | **0.00** | **2.00** | **uA** |
+| | | |<a href='results/dc_Sch_typical.html'>Sch_typ</a>| | 1.45 |  | |
+| | | |<a href='results/dc_Lay_typical.html'>Lay_typ</a>| |  |  | |
+| | | |<a href='results/dc_Sch_etc.html'>Sch_etc</a>|1.29 | 1.45 | 1.66 | |
+| | | |<a href='results/dc_Lay_etc.html'>Lay_etc</a>| |  |  | |
+| | | |<a href='results/dc_Sch_mc.html'>Sch_3std</a>|1.12 | 1.45 | 1.79 | |
+| | | |<a href='results/dc_Lay_mc.html'>Lay_3std</a>| |  |  | |
+||**imin** || **Spec**  | **0.50** | **0.00** | **2.00** | **uA** |
+| | | |<a href='results/dc_Sch_typical.html'>Sch_typ</a>| | 0.91 |  | |
+| | | |<a href='results/dc_Lay_typical.html'>Lay_typ</a>| |  |  | |
+| | | |<a href='results/dc_Sch_etc.html'>Sch_etc</a>|0.81 | 0.91 | 1.05 | |
+| | | |<a href='results/dc_Lay_etc.html'>Lay_etc</a>| |  |  | |
+| | | |<a href='results/dc_Sch_mc.html'>Sch_3std</a>|0.58 | 0.91 | 1.25 | |
+| | | |<a href='results/dc_Lay_mc.html'>Lay_3std</a>| |  |  | |
+||**a\_per\_c** || **Spec**  | **1.00** | **3.00** | **5.00** | **nA** |
+| | | |<a href='results/dc_Sch_typical.html'>Sch_typ</a>| | 3.25 |  | |
+| | | |<a href='results/dc_Lay_typical.html'>Lay_typ</a>| |  |  | |
+| | | |<a href='results/dc_Sch_etc.html'>Sch_etc</a>|2.88 | 3.25 | 3.73 | |
+| | | |<a href='results/dc_Lay_etc.html'>Lay_etc</a>| |  |  | |
+| | | |<a href='results/dc_Sch_mc.html'>Sch_3std</a>|2.96 | 3.27 | 3.58 | |
+| | | |<a href='results/dc_Lay_mc.html'>Lay_3std</a>| |  |  | |
 
