@@ -15,9 +15,13 @@ doc:
   libraries:
      JNW_BIAS_SKY130A:
          - JNW_BIAS
+         - JNW_BIAS_IBPREF
+         - JNW_BIAS_IBP
+         - JNW_BIAS_IBP_VREF
+         - JNW_BIAS_IBPSREF
+         - JNW_BIAS_IBPS
+         - JNW_BIAS_IBPS_VREF
          - JNWBIAS_OTACM
-         - JNW_BIAS_IBS
-         - JNWBIAS_OTAR
          - JNWBIAS_BIPOLAR
   #       - <cell>
 sim:

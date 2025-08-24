@@ -5,8 +5,8 @@ all: typical etc mc summary
 
 
 TB=lstb
-VIEW=Sch
-#VIEW=Lay
+#VIEW=Sch
+VIEW=Lay
 CELL=JNW_BIAS_IBP
 LIB =JNW_BIAS_SKY130A
 OPT=

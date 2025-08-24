@@ -15,6 +15,6 @@ LIB=JNW_BIAS_SKY130A
 CELL=JNW_BIAS
 
 #- Provide cells you want to check for the lvsall drcall commands
-CELLS = JNW_BIAS
+CELLS = JNW_BIAS_IBP JNW_BIAS_IBPS
 
 include ../tech/make/core.make
