@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1756046107
+timestamp 1756047484
 << locali >>
 rect -11400 9600 678 10000
 rect -11400 0 3046 400
@@ -25,13 +25,13 @@ rect 4 5404 1056 5588
 rect -502 4596 -496 4788
 rect -304 4596 596 4788
 use JNW_BIAS_IBP  x2 ../JNW_BIAS_SKY130A
-timestamp 1755461206
+timestamp 1756046330
 transform 1 0 0 0 1 0
 box 0 0 15200 10002
 use JNW_BIAS_IBP_VREF  x4 ../JNW_BIAS_SKY130A
-timestamp 1756045029
+timestamp 1756047484
 transform 1 0 -11000 0 1 400
-box -400 -400 11600 9600
+box -400 -400 11600 7826
 << labels >>
 flabel locali -11400 0 3046 400 0 FreeSans 1600 0 0 0 VSS
 port 1 nsew

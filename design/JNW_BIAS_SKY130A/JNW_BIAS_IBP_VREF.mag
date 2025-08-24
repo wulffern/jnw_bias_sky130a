@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1756045029
+timestamp 1756047484
 << locali >>
 rect -400 4000 -120 5240
 rect 900 4000 1720 6840
@@ -97,18 +97,6 @@ rect -322 7580 1980 7820
 rect 2220 7580 2223 7820
 rect -322 7578 2223 7580
 rect 1980 7574 2220 7578
-use JNWTR_RAIL_X20_Y50  JNWTR_RAIL_X20_Y50_0 JNW_TR_SKY130A
-timestamp 1756044104
-transform 1 0 -400 0 1 1600
-box 0 -2000 4000 8000
-use JNWTR_RAIL_X20_Y50  JNWTR_RAIL_X20_Y50_1
-timestamp 1756044104
-transform 1 0 3600 0 1 1600
-box 0 -2000 4000 8000
-use JNWTR_RAIL_X20_Y50  JNWTR_RAIL_X20_Y50_2
-timestamp 1756044104
-transform 1 0 7600 0 1 1600
-box 0 -2000 4000 8000
 use sky130_fd_pr__rf_pnp_05v5_W3p40L3p40  sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0 $PDKPATH/libs.ref/sky130_fd_pr/mag
 timestamp 1734020192
 transform 1 0 -200 0 1 3800

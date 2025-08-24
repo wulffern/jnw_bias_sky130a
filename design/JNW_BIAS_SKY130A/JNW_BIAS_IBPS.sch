@@ -152,21 +152,21 @@ C {devices/opin.sym} 1250 -840 0 0 {name=p9 lab=IBPS_1U[3:0]}
 C {devices/lab_pin.sym} 630 -370 0 1 {name=l2 sig_type=std_logic lab=VD1}
 C {devices/lab_pin.sym} 980 -200 0 1 {name=l4 sig_type=std_logic lab=VD2}
 C {devices/lab_pin.sym} 980 -430 0 1 {name=l5 sig_type=std_logic lab=VR1}
-C {JNW_TR_SKY130A/JNWTR_RPPO4.sym} 980 -410 1 0 {name=x2 }
-C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 940 -890 0 0 {name=x1[3:0]}
-C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 670 -890 0 1 {name=x3[3:0]}
-C {JNW_BIAS_SKY130A/JNWBIAS_OTACM.sym} 800 -710 1 1 {name=x6}
-C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 1140 -890 0 0 {name=x7[3:0]}
-C {JNW_TR_SKY130A/JNWTR_RPPO2.sym} 980 -310 1 0 {name=x8 }
-C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} 1200 -290 1 0 {name=x7 }
-C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} 470 -290 1 0 {name=x9 }
-C {JNW_TR_SKY130A/JNWTR_RPPO8.sym} 1200 -400 1 0 {name=x10 }
-C {JNW_TR_SKY130A/JNWTR_RPPO8.sym} 470 -390 1 0 {name=x11 }
-C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} 470 -190 1 0 {name=x12 }
-C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} 1200 -190 1 0 {name=x13 }
+C {JNW_TR_SKY130A/JNWTR_RPPO4.sym} 980 -410 1 0 {name=xe2 }
+C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 940 -890 0 0 {name=xb1[3:0]}
+C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 670 -890 0 1 {name=xb3[3:0]}
+C {JNW_BIAS_SKY130A/JNWBIAS_OTACM.sym} 800 -710 1 1 {name=xaota6}
+C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 1140 -890 0 0 {name=xb7[3:0]}
+C {JNW_TR_SKY130A/JNWTR_RPPO2.sym} 980 -310 1 0 {name=xe8 }
+C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} 1200 -290 1 0 {name=xd7 }
+C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} 470 -290 1 0 {name=xc9 }
+C {JNW_TR_SKY130A/JNWTR_RPPO8.sym} 1200 -400 1 0 {name=xd10 }
+C {JNW_TR_SKY130A/JNWTR_RPPO8.sym} 470 -390 1 0 {name=xc11 }
+C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} 470 -190 1 0 {name=xc12 }
+C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} 1200 -190 1 0 {name=xd13 }
 C {devices/ipin.sym} 290 -350 0 0 {name=p1 lab=STARTUP_1V8}
-C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 360 -350 0 0 {name=x4 }
-C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} 400 -190 3 1 {name=x1 }
-C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} 820 -910 0 0 {name=xc1[2:0]}
-C {JNW_BIAS_SKY130A/JNWBIAS_BIPOLAR.sym} 800 -80 0 0 {name=xe1}
+C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 360 -350 0 0 {name=xf4 }
+C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} 400 -190 3 1 {name=xe3 }
+C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} 820 -910 0 0 {name=xbc2[9:0]}
+C {JNW_BIAS_SKY130A/JNWBIAS_BIPOLAR.sym} 800 -80 0 0 {name=xbc1}
 C {devices/lab_pin.sym} 770 -370 0 0 {name=l1 sig_type=std_logic lab=VSS}
