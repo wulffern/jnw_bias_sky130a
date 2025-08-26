@@ -12,7 +12,7 @@
 
 PREFIX=
 LIB=JNW_BIAS_SKY130A
-CELL=JNW_BIAS
+CELL=JNW_BIAS_IBPREF
 
 #- Provide cells you want to check for the lvsall drcall commands
 CELLS = JNW_BIAS_IBP JNW_BIAS_IBPS
