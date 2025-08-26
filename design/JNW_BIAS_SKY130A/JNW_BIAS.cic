@@ -1,0 +1,258 @@
+{
+    "cells": [
+        {
+            "class": "LayoutCell",
+            "x1": 0,
+            "y1": 0,
+            "x2": 1093600.0,
+            "y2": 500000.0,
+            "layer": "",
+            "net": "",
+            "name": "JNW_BIAS",
+            "has_pr": false,
+            "ckt": {
+                "class": "",
+                "name": "JNW_BIAS",
+                "nodes": [
+                    "VSS",
+                    "VDD_1V8",
+                    "IBP_1U<2>",
+                    "IBP_1U<1>",
+                    "IBP_1U<0>",
+                    "VREF_1V0",
+                    "STARTUP_1V8"
+                ],
+                "properties": {},
+                "devices": [],
+                "instances": [
+                    {
+                        "class": "",
+                        "name": "x1",
+                        "nodes": [
+                            "IBP_1U<2>",
+                            "IBP_1U<1>",
+                            "IBP_1U<0>",
+                            "VDD_1V8",
+                            "LP1",
+                            "STARTUP_1V8",
+                            "VREF_1V0",
+                            "LP1",
+                            "VSS"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNW_BIAS_IBPREF",
+                        "groupName": "x",
+                        "deviceName": "subckt"
+                    }
+                ]
+            },
+            "children": [
+                {
+                    "class": "Instance",
+                    "x1": 0,
+                    "y1": 0,
+                    "x2": 1093600.0,
+                    "y2": 500000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNW_BIAS_IBPREF",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 200.0,
+                            "y1": 270200.0,
+                            "x2": 52800.0,
+                            "y2": 279400.0,
+                            "layer": "M3",
+                            "net": "",
+                            "name": "IBP_1U<2>",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 0.0,
+                            "y1": 433800.0,
+                            "x2": 52800.0,
+                            "y2": 443400.0,
+                            "layer": "M3",
+                            "net": "",
+                            "name": "IBP_1U<1>",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 200.0,
+                            "y1": 390200.0,
+                            "x2": 52800.0,
+                            "y2": 399400.0,
+                            "layer": "M3",
+                            "net": "",
+                            "name": "IBP_1U<0>",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": -570000.0,
+                            "y1": 480000.0,
+                            "x2": 33900.0,
+                            "y2": 500000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 717600.0,
+                            "y1": 451000.0,
+                            "x2": 727200.0,
+                            "y2": 470200.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "LP1",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 27000.0,
+                            "y1": 79000.0,
+                            "x2": 30400.0,
+                            "y2": 103200.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "STARTUP_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": -564800.0,
+                            "y1": 400150.0,
+                            "x2": -555150.0,
+                            "y2": 409800.0,
+                            "layer": "M3",
+                            "net": "",
+                            "name": "VREF_1V0",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 717600.0,
+                            "y1": 245600.0,
+                            "x2": 727200.0,
+                            "y2": 438000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "LP1",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": -570000.0,
+                            "y1": 0.0,
+                            "x2": 152300.0,
+                            "y2": 20000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VSS",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "x1",
+                    "angle": "",
+                    "cell": "JNW_BIAS_IBPREF",
+                    "libpath": "JNW_BIAS_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Rect",
+                    "x1": 717600.0,
+                    "y1": 438000.0,
+                    "x2": 727200.0,
+                    "y2": 451000.0,
+                    "layer": "M2",
+                    "net": ""
+                },
+                {
+                    "class": "Port",
+                    "x1": -570000.0,
+                    "y1": 0.0,
+                    "x2": 152300.0,
+                    "y2": 20000.0,
+                    "layer": "M1",
+                    "net": "",
+                    "name": "VSS",
+                    "spicePort": true
+                },
+                {
+                    "class": "Port",
+                    "x1": -570000.0,
+                    "y1": 480000.0,
+                    "x2": 33900.0,
+                    "y2": 500000.0,
+                    "layer": "M1",
+                    "net": "",
+                    "name": "VDD_1V8",
+                    "spicePort": true
+                },
+                {
+                    "class": "Port",
+                    "x1": 200.0,
+                    "y1": 270200.0,
+                    "x2": 52800.0,
+                    "y2": 279400.0,
+                    "layer": "M3",
+                    "net": "",
+                    "name": "IBP_1U<2>",
+                    "spicePort": true
+                },
+                {
+                    "class": "Port",
+                    "x1": 0.0,
+                    "y1": 433800.0,
+                    "x2": 52800.0,
+                    "y2": 443400.0,
+                    "layer": "M3",
+                    "net": "",
+                    "name": "IBP_1U<1>",
+                    "spicePort": true
+                },
+                {
+                    "class": "Port",
+                    "x1": 200.0,
+                    "y1": 390200.0,
+                    "x2": 52800.0,
+                    "y2": 399400.0,
+                    "layer": "M3",
+                    "net": "",
+                    "name": "IBP_1U<0>",
+                    "spicePort": true
+                },
+                {
+                    "class": "Port",
+                    "x1": -564800.0,
+                    "y1": 400150.0,
+                    "x2": -555150.0,
+                    "y2": 409800.0,
+                    "layer": "M3",
+                    "net": "",
+                    "name": "VREF_1V0",
+                    "spicePort": true
+                },
+                {
+                    "class": "Port",
+                    "x1": 27000.0,
+                    "y1": 79000.0,
+                    "x2": 30400.0,
+                    "y2": 103200.0,
+                    "layer": "M2",
+                    "net": "",
+                    "name": "STARTUP_1V8",
+                    "spicePort": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1756159200
+<< checkpaint >>
+rect 0 0 21872 10000
+<< metal1 >>
+rect 14352 8760 14544 9020
+rect 540 1580 608 2064
+<< locali >>
+rect -11400 0 3046 400
+rect -11400 9600 678 10000
+<< metal2 >>
+rect 4 5404 1056 5588
+rect 0 8676 1056 8868
+rect 4 7804 1056 7988
+rect -11296 8003 -11103 8196
+use JNW_BIAS_IBPREF x1 ../JNW_BIAS_SKY130A
+transform 1 0 0 0 1 0
+box 0 0 21872 10000
+<< labels >>
+flabel locali s -11400 0 3046 400 0 FreeSans 400 0 0 0 VSS
+port 1 nsew ground bidirectional
+flabel locali s -11400 9600 678 10000 0 FreeSans 400 0 0 0 VDD_1V8
+port 2 nsew power bidirectional
+flabel metal2 s 4 5404 1056 5588 0 FreeSans 400 0 0 0 IBP_1U<2>
+port 3 nsew signal bidirectional
+flabel metal2 s 0 8676 1056 8868 0 FreeSans 400 0 0 0 IBP_1U<1>
+port 4 nsew signal bidirectional
+flabel metal2 s 4 7804 1056 7988 0 FreeSans 400 0 0 0 IBP_1U<0>
+port 5 nsew signal bidirectional
+flabel metal2 s -11296 8003 -11103 8196 0 FreeSans 400 0 0 0 VREF_1V0
+port 6 nsew signal bidirectional
+flabel metal1 s 540 1580 608 2064 0 FreeSans 400 0 0 0 STARTUP_1V8
+port 7 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 21872 10000
+<< end >>

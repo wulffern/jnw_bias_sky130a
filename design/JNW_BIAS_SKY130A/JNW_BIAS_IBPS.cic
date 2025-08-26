@@ -1,0 +1,2592 @@
+{
+    "cells": [
+        {
+            "class": "LayoutCell",
+            "x1": 0,
+            "y1": 0,
+            "x2": 1442700.0,
+            "y2": 516000.0,
+            "layer": "",
+            "net": "",
+            "name": "JNW_BIAS_IBPS",
+            "has_pr": false,
+            "ckt": {
+                "class": "",
+                "name": "JNW_BIAS_IBPS",
+                "nodes": [
+                    "VDD_1V8",
+                    "IBPS_1U<3>",
+                    "IBPS_1U<2>",
+                    "IBPS_1U<1>",
+                    "IBPS_1U<0>",
+                    "LPI",
+                    "LPO",
+                    "STARTUP_1V8",
+                    "VSS"
+                ],
+                "properties": {},
+                "devices": [],
+                "instances": [
+                    {
+                        "class": "",
+                        "name": "xe2",
+                        "nodes": [
+                            "VD2",
+                            "VR1",
+                            "VSS"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWTR_RPPO4",
+                        "groupName": "xe",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xb1<3>",
+                        "nodes": [
+                            "VR1",
+                            "LPI",
+                            "VDD_1V8",
+                            "VDD_1V8"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWATR_PCH_4C5F0",
+                        "groupName": "xb",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xb1<2>",
+                        "nodes": [
+                            "VR1",
+                            "LPI",
+                            "VDD_1V8",
+                            "VDD_1V8"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWATR_PCH_4C5F0",
+                        "groupName": "xb",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xb1<1>",
+                        "nodes": [
+                            "VR1",
+                            "LPI",
+                            "VDD_1V8",
+                            "VDD_1V8"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWATR_PCH_4C5F0",
+                        "groupName": "xb",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xb1<0>",
+                        "nodes": [
+                            "VR1",
+                            "LPI",
+                            "VDD_1V8",
+                            "VDD_1V8"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWATR_PCH_4C5F0",
+                        "groupName": "xb",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xb3<3>",
+                        "nodes": [
+                            "VD1",
+                            "LPI",
+                            "VDD_1V8",
+                            "VDD_1V8"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWATR_PCH_4C5F0",
+                        "groupName": "xb",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xb3<2>",
+                        "nodes": [
+                            "VD1",
+                            "LPI",
+                            "VDD_1V8",
+                            "VDD_1V8"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWATR_PCH_4C5F0",
+                        "groupName": "xb",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xb3<1>",
+                        "nodes": [
+                            "VD1",
+                            "LPI",
+                            "VDD_1V8",
+                            "VDD_1V8"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWATR_PCH_4C5F0",
+                        "groupName": "xb",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xb3<0>",
+                        "nodes": [
+                            "VD1",
+                            "LPI",
+                            "VDD_1V8",
+                            "VDD_1V8"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWATR_PCH_4C5F0",
+                        "groupName": "xb",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xaota6",
+                        "nodes": [
+                            "VDD_1V8",
+                            "VR1",
+                            "LPO",
+                            "VD1",
+                            "VSS"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWBIAS_OTACM",
+                        "groupName": "xaota",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xb7<3>",
+                        "nodes": [
+                            "IBPS_1U<3>",
+                            "LPI",
+                            "VDD_1V8",
+                            "VDD_1V8"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWATR_PCH_4C5F0",
+                        "groupName": "xb",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xb7<2>",
+                        "nodes": [
+                            "IBPS_1U<2>",
+                            "LPI",
+                            "VDD_1V8",
+                            "VDD_1V8"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWATR_PCH_4C5F0",
+                        "groupName": "xb",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xb7<1>",
+                        "nodes": [
+                            "IBPS_1U<1>",
+                            "LPI",
+                            "VDD_1V8",
+                            "VDD_1V8"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWATR_PCH_4C5F0",
+                        "groupName": "xb",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xb7<0>",
+                        "nodes": [
+                            "IBPS_1U<0>",
+                            "LPI",
+                            "VDD_1V8",
+                            "VDD_1V8"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWATR_PCH_4C5F0",
+                        "groupName": "xb",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xe8",
+                        "nodes": [
+                            "VD2",
+                            "VD2",
+                            "VSS"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWTR_RPPO2",
+                        "groupName": "xe",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xd7",
+                        "nodes": [
+                            "net4",
+                            "net1",
+                            "VSS"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWTR_RPPO16",
+                        "groupName": "xd",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xc9",
+                        "nodes": [
+                            "net3",
+                            "net2",
+                            "VSS"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWTR_RPPO16",
+                        "groupName": "xc",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xd10",
+                        "nodes": [
+                            "net1",
+                            "VR1",
+                            "VSS"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWTR_RPPO8",
+                        "groupName": "xd",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xc11",
+                        "nodes": [
+                            "net2",
+                            "VD1",
+                            "VSS"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWTR_RPPO8",
+                        "groupName": "xc",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xc12",
+                        "nodes": [
+                            "VSS",
+                            "net3",
+                            "VSS"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWTR_RPPO16",
+                        "groupName": "xc",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xd13",
+                        "nodes": [
+                            "VSS",
+                            "net4",
+                            "VSS"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWTR_RPPO16",
+                        "groupName": "xd",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xf4",
+                        "nodes": [
+                            "LPI",
+                            "STARTUP_1V8",
+                            "net5",
+                            "VSS"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWATR_NCH_4C5F0",
+                        "groupName": "xf",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xe3",
+                        "nodes": [
+                            "VSS",
+                            "net5",
+                            "VSS"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWTR_RPPO16",
+                        "groupName": "xe",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xbc2<9>",
+                        "nodes": [
+                            "VDD_1V8",
+                            "LPI"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWTR_CAPX1",
+                        "groupName": "xbc",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xbc2<8>",
+                        "nodes": [
+                            "VDD_1V8",
+                            "LPI"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWTR_CAPX1",
+                        "groupName": "xbc",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xbc2<7>",
+                        "nodes": [
+                            "VDD_1V8",
+                            "LPI"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWTR_CAPX1",
+                        "groupName": "xbc",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xbc2<6>",
+                        "nodes": [
+                            "VDD_1V8",
+                            "LPI"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWTR_CAPX1",
+                        "groupName": "xbc",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xbc2<5>",
+                        "nodes": [
+                            "VDD_1V8",
+                            "LPI"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWTR_CAPX1",
+                        "groupName": "xbc",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xbc2<4>",
+                        "nodes": [
+                            "VDD_1V8",
+                            "LPI"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWTR_CAPX1",
+                        "groupName": "xbc",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xbc2<3>",
+                        "nodes": [
+                            "VDD_1V8",
+                            "LPI"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWTR_CAPX1",
+                        "groupName": "xbc",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xbc2<2>",
+                        "nodes": [
+                            "VDD_1V8",
+                            "LPI"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWTR_CAPX1",
+                        "groupName": "xbc",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xbc2<1>",
+                        "nodes": [
+                            "VDD_1V8",
+                            "LPI"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWTR_CAPX1",
+                        "groupName": "xbc",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xbc2<0>",
+                        "nodes": [
+                            "VDD_1V8",
+                            "LPI"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWTR_CAPX1",
+                        "groupName": "xbc",
+                        "deviceName": "subckt"
+                    },
+                    {
+                        "class": "",
+                        "name": "xbc1",
+                        "nodes": [
+                            "VD2",
+                            "VD1",
+                            "VSS"
+                        ],
+                        "properties": {},
+                        "subcktName": "JNWBIAS_BIPOLAR",
+                        "groupName": "xbc",
+                        "deviceName": "subckt"
+                    }
+                ]
+            },
+            "children": [
+                {
+                    "class": "Instance",
+                    "x1": 0,
+                    "y1": 0,
+                    "x2": 340000.0,
+                    "y2": 500000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWBIAS_OTACM",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 480000.0,
+                            "y1": 0.0,
+                            "x2": 500000.0,
+                            "y2": 34700.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 68400.0,
+                            "y1": 0.0,
+                            "x2": 354600.0,
+                            "y2": 114400.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VR1",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 252200.0,
+                            "y1": 0.0,
+                            "x2": 410200.0,
+                            "y2": 307200.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "LPO",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 69400.0,
+                            "y1": 0.0,
+                            "x2": 375600.0,
+                            "y2": 31200.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VD1",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 0.0,
+                            "y1": 0.0,
+                            "x2": 20000.0,
+                            "y2": 221100.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VSS",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xaota6",
+                    "angle": "",
+                    "cell": "JNWBIAS_OTACM",
+                    "libpath": "JNW_BIAS_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 355000.0,
+                    "y1": 0,
+                    "x2": 412600.0,
+                    "y2": 40000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWATR_PCH_4C5F0",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 388600.0,
+                            "y1": 2000.0,
+                            "x2": 398200.0,
+                            "y2": 6000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VR1",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 363000.0,
+                            "y1": 18000.0,
+                            "x2": 366200.0,
+                            "y2": 22000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 369400.0,
+                            "y1": 30000.0,
+                            "x2": 379000.0,
+                            "y2": 34000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 350200.0,
+                            "y1": 18000.0,
+                            "x2": 359800.0,
+                            "y2": 22000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xb1<0>",
+                    "angle": "",
+                    "cell": "JNWATR_PCH_4C5F0",
+                    "libpath": "JNW_ATR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 355000.0,
+                    "y1": 40000.0,
+                    "x2": 412600.0,
+                    "y2": 80000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWATR_PCH_4C5F0",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 388600.0,
+                            "y1": 42000.0,
+                            "x2": 398200.0,
+                            "y2": 46000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VR1",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 363000.0,
+                            "y1": 58000.0,
+                            "x2": 366200.0,
+                            "y2": 62000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 369400.0,
+                            "y1": 70000.0,
+                            "x2": 379000.0,
+                            "y2": 74000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 350200.0,
+                            "y1": 58000.0,
+                            "x2": 359800.0,
+                            "y2": 62000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xb1<1>",
+                    "angle": "",
+                    "cell": "JNWATR_PCH_4C5F0",
+                    "libpath": "JNW_ATR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 355000.0,
+                    "y1": 80000.0,
+                    "x2": 412600.0,
+                    "y2": 120000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWATR_PCH_4C5F0",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 388600.0,
+                            "y1": 82000.0,
+                            "x2": 398200.0,
+                            "y2": 86000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VR1",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 363000.0,
+                            "y1": 98000.0,
+                            "x2": 366200.0,
+                            "y2": 102000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 369400.0,
+                            "y1": 110000.0,
+                            "x2": 379000.0,
+                            "y2": 114000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 350200.0,
+                            "y1": 98000.0,
+                            "x2": 359800.0,
+                            "y2": 102000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xb1<2>",
+                    "angle": "",
+                    "cell": "JNWATR_PCH_4C5F0",
+                    "libpath": "JNW_ATR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 355000.0,
+                    "y1": 120000.0,
+                    "x2": 412600.0,
+                    "y2": 160000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWATR_PCH_4C5F0",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 388600.0,
+                            "y1": 122000.0,
+                            "x2": 398200.0,
+                            "y2": 126000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VR1",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 363000.0,
+                            "y1": 138000.0,
+                            "x2": 366200.0,
+                            "y2": 142000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 369400.0,
+                            "y1": 150000.0,
+                            "x2": 379000.0,
+                            "y2": 154000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 350200.0,
+                            "y1": 138000.0,
+                            "x2": 359800.0,
+                            "y2": 142000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xb1<3>",
+                    "angle": "",
+                    "cell": "JNWATR_PCH_4C5F0",
+                    "libpath": "JNW_ATR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 355000.0,
+                    "y1": 160000.0,
+                    "x2": 412600.0,
+                    "y2": 200000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWATR_PCH_4C5F0",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 388600.0,
+                            "y1": 162000.0,
+                            "x2": 398200.0,
+                            "y2": 166000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VD1",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 363000.0,
+                            "y1": 178000.0,
+                            "x2": 366200.0,
+                            "y2": 182000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 369400.0,
+                            "y1": 190000.0,
+                            "x2": 379000.0,
+                            "y2": 194000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 350200.0,
+                            "y1": 178000.0,
+                            "x2": 359800.0,
+                            "y2": 182000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xb3<0>",
+                    "angle": "",
+                    "cell": "JNWATR_PCH_4C5F0",
+                    "libpath": "JNW_ATR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 355000.0,
+                    "y1": 200000.0,
+                    "x2": 412600.0,
+                    "y2": 240000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWATR_PCH_4C5F0",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 388600.0,
+                            "y1": 202000.0,
+                            "x2": 398200.0,
+                            "y2": 206000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VD1",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 363000.0,
+                            "y1": 218000.0,
+                            "x2": 366200.0,
+                            "y2": 222000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 369400.0,
+                            "y1": 230000.0,
+                            "x2": 379000.0,
+                            "y2": 234000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 350200.0,
+                            "y1": 218000.0,
+                            "x2": 359800.0,
+                            "y2": 222000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xb3<1>",
+                    "angle": "",
+                    "cell": "JNWATR_PCH_4C5F0",
+                    "libpath": "JNW_ATR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 355000.0,
+                    "y1": 240000.0,
+                    "x2": 412600.0,
+                    "y2": 280000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWATR_PCH_4C5F0",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 388600.0,
+                            "y1": 242000.0,
+                            "x2": 398200.0,
+                            "y2": 246000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VD1",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 363000.0,
+                            "y1": 258000.0,
+                            "x2": 366200.0,
+                            "y2": 262000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 369400.0,
+                            "y1": 270000.0,
+                            "x2": 379000.0,
+                            "y2": 274000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 350200.0,
+                            "y1": 258000.0,
+                            "x2": 359800.0,
+                            "y2": 262000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xb3<2>",
+                    "angle": "",
+                    "cell": "JNWATR_PCH_4C5F0",
+                    "libpath": "JNW_ATR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 355000.0,
+                    "y1": 280000.0,
+                    "x2": 412600.0,
+                    "y2": 320000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWATR_PCH_4C5F0",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 388600.0,
+                            "y1": 282000.0,
+                            "x2": 398200.0,
+                            "y2": 286000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VD1",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 363000.0,
+                            "y1": 298000.0,
+                            "x2": 366200.0,
+                            "y2": 302000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 369400.0,
+                            "y1": 310000.0,
+                            "x2": 379000.0,
+                            "y2": 314000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 350200.0,
+                            "y1": 298000.0,
+                            "x2": 359800.0,
+                            "y2": 302000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xb3<3>",
+                    "angle": "",
+                    "cell": "JNWATR_PCH_4C5F0",
+                    "libpath": "JNW_ATR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 355000.0,
+                    "y1": 320000.0,
+                    "x2": 412600.0,
+                    "y2": 360000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWATR_PCH_4C5F0",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 388600.0,
+                            "y1": 322000.0,
+                            "x2": 398200.0,
+                            "y2": 326000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "IBPS_1U<0>",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 363000.0,
+                            "y1": 338000.0,
+                            "x2": 366200.0,
+                            "y2": 342000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 369400.0,
+                            "y1": 350000.0,
+                            "x2": 379000.0,
+                            "y2": 354000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 350200.0,
+                            "y1": 338000.0,
+                            "x2": 359800.0,
+                            "y2": 342000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xb7<0>",
+                    "angle": "",
+                    "cell": "JNWATR_PCH_4C5F0",
+                    "libpath": "JNW_ATR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 355000.0,
+                    "y1": 360000.0,
+                    "x2": 412600.0,
+                    "y2": 400000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWATR_PCH_4C5F0",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 388600.0,
+                            "y1": 362000.0,
+                            "x2": 398200.0,
+                            "y2": 366000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "IBPS_1U<1>",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 363000.0,
+                            "y1": 378000.0,
+                            "x2": 366200.0,
+                            "y2": 382000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 369400.0,
+                            "y1": 390000.0,
+                            "x2": 379000.0,
+                            "y2": 394000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 350200.0,
+                            "y1": 378000.0,
+                            "x2": 359800.0,
+                            "y2": 382000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xb7<1>",
+                    "angle": "",
+                    "cell": "JNWATR_PCH_4C5F0",
+                    "libpath": "JNW_ATR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 355000.0,
+                    "y1": 400000.0,
+                    "x2": 412600.0,
+                    "y2": 440000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWATR_PCH_4C5F0",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 388600.0,
+                            "y1": 402000.0,
+                            "x2": 398200.0,
+                            "y2": 406000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "IBPS_1U<2>",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 363000.0,
+                            "y1": 418000.0,
+                            "x2": 366200.0,
+                            "y2": 422000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 369400.0,
+                            "y1": 430000.0,
+                            "x2": 379000.0,
+                            "y2": 434000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 350200.0,
+                            "y1": 418000.0,
+                            "x2": 359800.0,
+                            "y2": 422000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xb7<2>",
+                    "angle": "",
+                    "cell": "JNWATR_PCH_4C5F0",
+                    "libpath": "JNW_ATR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 355000.0,
+                    "y1": 440000.0,
+                    "x2": 412600.0,
+                    "y2": 480000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWATR_PCH_4C5F0",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 388600.0,
+                            "y1": 442000.0,
+                            "x2": 398200.0,
+                            "y2": 446000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "IBPS_1U<3>",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 363000.0,
+                            "y1": 458000.0,
+                            "x2": 366200.0,
+                            "y2": 462000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 369400.0,
+                            "y1": 470000.0,
+                            "x2": 379000.0,
+                            "y2": 474000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 350200.0,
+                            "y1": 458000.0,
+                            "x2": 359800.0,
+                            "y2": 462000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xb7<3>",
+                    "angle": "",
+                    "cell": "JNWATR_PCH_4C5F0",
+                    "libpath": "JNW_ATR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 432600.0,
+                    "y1": 0,
+                    "x2": 654300.0,
+                    "y2": 221700.0,
+                    "layer": "",
+                    "net": "",
+                    "name": "JNWBIAS_BIPOLAR",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 587600.0,
+                            "y1": 0.0,
+                            "x2": 627600.0,
+                            "y2": 195000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VD2",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 517600.0,
+                            "y1": 0.0,
+                            "x2": 557600.0,
+                            "y2": 125000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "VD1",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 433600.0,
+                            "y1": -5000.0,
+                            "x2": 640600.0,
+                            "y2": 7000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VSS",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xbc1",
+                    "angle": "",
+                    "cell": "JNWBIAS_BIPOLAR",
+                    "libpath": "JNW_BIAS_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 432600.0,
+                    "y1": 221700.0,
+                    "x2": 486600.0,
+                    "y2": 275700.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWTR_CAPX1",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 432600.0,
+                            "y1": 221700.0,
+                            "x2": 486600.0,
+                            "y2": 226700.0,
+                            "layer": "M4",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 432600.0,
+                            "y1": 221700.0,
+                            "x2": 486600.0,
+                            "y2": 226700.0,
+                            "layer": "M5",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xbc2<0>",
+                    "angle": "",
+                    "cell": "JNWTR_CAPX1",
+                    "libpath": "JNW_TR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 500600.0,
+                    "y1": 221700.0,
+                    "x2": 554600.0,
+                    "y2": 275700.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWTR_CAPX1",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 500600.0,
+                            "y1": 221700.0,
+                            "x2": 554600.0,
+                            "y2": 226700.0,
+                            "layer": "M4",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 500600.0,
+                            "y1": 221700.0,
+                            "x2": 554600.0,
+                            "y2": 226700.0,
+                            "layer": "M5",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xbc2<1>",
+                    "angle": "",
+                    "cell": "JNWTR_CAPX1",
+                    "libpath": "JNW_TR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 568600.0,
+                    "y1": 221700.0,
+                    "x2": 622600.0,
+                    "y2": 275700.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWTR_CAPX1",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 568600.0,
+                            "y1": 221700.0,
+                            "x2": 622600.0,
+                            "y2": 226700.0,
+                            "layer": "M4",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 568600.0,
+                            "y1": 221700.0,
+                            "x2": 622600.0,
+                            "y2": 226700.0,
+                            "layer": "M5",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xbc2<2>",
+                    "angle": "",
+                    "cell": "JNWTR_CAPX1",
+                    "libpath": "JNW_TR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 432600.0,
+                    "y1": 289700.0,
+                    "x2": 486600.0,
+                    "y2": 343700.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWTR_CAPX1",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 432600.0,
+                            "y1": 289700.0,
+                            "x2": 486600.0,
+                            "y2": 294700.0,
+                            "layer": "M4",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 432600.0,
+                            "y1": 289700.0,
+                            "x2": 486600.0,
+                            "y2": 294700.0,
+                            "layer": "M5",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xbc2<3>",
+                    "angle": "",
+                    "cell": "JNWTR_CAPX1",
+                    "libpath": "JNW_TR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 500600.0,
+                    "y1": 289700.0,
+                    "x2": 554600.0,
+                    "y2": 343700.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWTR_CAPX1",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 500600.0,
+                            "y1": 289700.0,
+                            "x2": 554600.0,
+                            "y2": 294700.0,
+                            "layer": "M4",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 500600.0,
+                            "y1": 289700.0,
+                            "x2": 554600.0,
+                            "y2": 294700.0,
+                            "layer": "M5",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xbc2<4>",
+                    "angle": "",
+                    "cell": "JNWTR_CAPX1",
+                    "libpath": "JNW_TR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 568600.0,
+                    "y1": 289700.0,
+                    "x2": 622600.0,
+                    "y2": 343700.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWTR_CAPX1",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 568600.0,
+                            "y1": 289700.0,
+                            "x2": 622600.0,
+                            "y2": 294700.0,
+                            "layer": "M4",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 568600.0,
+                            "y1": 289700.0,
+                            "x2": 622600.0,
+                            "y2": 294700.0,
+                            "layer": "M5",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xbc2<5>",
+                    "angle": "",
+                    "cell": "JNWTR_CAPX1",
+                    "libpath": "JNW_TR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 432600.0,
+                    "y1": 357700.0,
+                    "x2": 486600.0,
+                    "y2": 411700.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWTR_CAPX1",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 432600.0,
+                            "y1": 357700.0,
+                            "x2": 486600.0,
+                            "y2": 362700.0,
+                            "layer": "M4",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 432600.0,
+                            "y1": 357700.0,
+                            "x2": 486600.0,
+                            "y2": 362700.0,
+                            "layer": "M5",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xbc2<6>",
+                    "angle": "",
+                    "cell": "JNWTR_CAPX1",
+                    "libpath": "JNW_TR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 500600.0,
+                    "y1": 357700.0,
+                    "x2": 554600.0,
+                    "y2": 411700.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWTR_CAPX1",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 500600.0,
+                            "y1": 357700.0,
+                            "x2": 554600.0,
+                            "y2": 362700.0,
+                            "layer": "M4",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 500600.0,
+                            "y1": 357700.0,
+                            "x2": 554600.0,
+                            "y2": 362700.0,
+                            "layer": "M5",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xbc2<7>",
+                    "angle": "",
+                    "cell": "JNWTR_CAPX1",
+                    "libpath": "JNW_TR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 568600.0,
+                    "y1": 357700.0,
+                    "x2": 622600.0,
+                    "y2": 411700.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWTR_CAPX1",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 568600.0,
+                            "y1": 357700.0,
+                            "x2": 622600.0,
+                            "y2": 362700.0,
+                            "layer": "M4",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 568600.0,
+                            "y1": 357700.0,
+                            "x2": 622600.0,
+                            "y2": 362700.0,
+                            "layer": "M5",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xbc2<8>",
+                    "angle": "",
+                    "cell": "JNWTR_CAPX1",
+                    "libpath": "JNW_TR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 432600.0,
+                    "y1": 425700.0,
+                    "x2": 486600.0,
+                    "y2": 479700.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWTR_CAPX1",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 432600.0,
+                            "y1": 425700.0,
+                            "x2": 486600.0,
+                            "y2": 430700.0,
+                            "layer": "M4",
+                            "net": "",
+                            "name": "VDD_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 432600.0,
+                            "y1": 425700.0,
+                            "x2": 486600.0,
+                            "y2": 430700.0,
+                            "layer": "M5",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xbc2<9>",
+                    "angle": "",
+                    "cell": "JNWTR_CAPX1",
+                    "libpath": "JNW_TR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 669300.0,
+                    "y1": 0,
+                    "x2": 806500.0,
+                    "y2": 172000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWTR_RPPO8",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 687500.0,
+                            "y1": 146000.0,
+                            "x2": 701900.0,
+                            "y2": 158000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "net2",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 773900.0,
+                            "y1": 146000.0,
+                            "x2": 788300.0,
+                            "y2": 158000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VD1",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 670100.0,
+                            "y1": 800.0,
+                            "x2": 805700.0,
+                            "y2": 6400.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VSS",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xc11",
+                    "angle": "",
+                    "cell": "JNWTR_RPPO8",
+                    "libpath": "JNW_TR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 669300.0,
+                    "y1": 172000.0,
+                    "x2": 892900.0,
+                    "y2": 344000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWTR_RPPO16",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 687500.0,
+                            "y1": 318000.0,
+                            "x2": 701900.0,
+                            "y2": 330000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VSS",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 860300.0,
+                            "y1": 318000.0,
+                            "x2": 874700.0,
+                            "y2": 330000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "net3",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 670100.0,
+                            "y1": 172800.0,
+                            "x2": 892100.0,
+                            "y2": 178400.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VSS",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xc12",
+                    "angle": "",
+                    "cell": "JNWTR_RPPO16",
+                    "libpath": "JNW_TR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 669300.0,
+                    "y1": 344000.0,
+                    "x2": 892900.0,
+                    "y2": 516000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWTR_RPPO16",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 687500.0,
+                            "y1": 490000.0,
+                            "x2": 701900.0,
+                            "y2": 502000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "net3",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 860300.0,
+                            "y1": 490000.0,
+                            "x2": 874700.0,
+                            "y2": 502000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "net2",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 670100.0,
+                            "y1": 344800.0,
+                            "x2": 892100.0,
+                            "y2": 350400.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VSS",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xc9",
+                    "angle": "",
+                    "cell": "JNWTR_RPPO16",
+                    "libpath": "JNW_TR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 907900.0,
+                    "y1": 0,
+                    "x2": 1045100.0,
+                    "y2": 172000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWTR_RPPO8",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 926100.0,
+                            "y1": 146000.0,
+                            "x2": 940500.0,
+                            "y2": 158000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "net1",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 1012500.0,
+                            "y1": 146000.0,
+                            "x2": 1026900.0,
+                            "y2": 158000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VR1",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 908700.0,
+                            "y1": 800.0,
+                            "x2": 1044300.0,
+                            "y2": 6400.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VSS",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xd10",
+                    "angle": "",
+                    "cell": "JNWTR_RPPO8",
+                    "libpath": "JNW_TR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 907900.0,
+                    "y1": 172000.0,
+                    "x2": 1131500.0,
+                    "y2": 344000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWTR_RPPO16",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 926100.0,
+                            "y1": 318000.0,
+                            "x2": 940500.0,
+                            "y2": 330000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VSS",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 1098900.0,
+                            "y1": 318000.0,
+                            "x2": 1113300.0,
+                            "y2": 330000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "net4",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 908700.0,
+                            "y1": 172800.0,
+                            "x2": 1130700.0,
+                            "y2": 178400.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VSS",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xd13",
+                    "angle": "",
+                    "cell": "JNWTR_RPPO16",
+                    "libpath": "JNW_TR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 907900.0,
+                    "y1": 344000.0,
+                    "x2": 1131500.0,
+                    "y2": 516000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWTR_RPPO16",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 926100.0,
+                            "y1": 490000.0,
+                            "x2": 940500.0,
+                            "y2": 502000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "net4",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 1098900.0,
+                            "y1": 490000.0,
+                            "x2": 1113300.0,
+                            "y2": 502000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "net1",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 908700.0,
+                            "y1": 344800.0,
+                            "x2": 1130700.0,
+                            "y2": 350400.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VSS",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xd7",
+                    "angle": "",
+                    "cell": "JNWTR_RPPO16",
+                    "libpath": "JNW_TR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 1146500.0,
+                    "y1": 0,
+                    "x2": 1240500.0,
+                    "y2": 172000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWTR_RPPO4",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 1164700.0,
+                            "y1": 146000.0,
+                            "x2": 1179100.0,
+                            "y2": 158000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VD2",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 1207900.0,
+                            "y1": 146000.0,
+                            "x2": 1222300.0,
+                            "y2": 158000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VR1",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 1147300.0,
+                            "y1": 800.0,
+                            "x2": 1239700.0,
+                            "y2": 6400.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VSS",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xe2",
+                    "angle": "",
+                    "cell": "JNWTR_RPPO4",
+                    "libpath": "JNW_TR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 1146500.0,
+                    "y1": 172000.0,
+                    "x2": 1370100.0,
+                    "y2": 344000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWTR_RPPO16",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 1164700.0,
+                            "y1": 318000.0,
+                            "x2": 1179100.0,
+                            "y2": 330000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VSS",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 1337500.0,
+                            "y1": 318000.0,
+                            "x2": 1351900.0,
+                            "y2": 330000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "net5",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 1147300.0,
+                            "y1": 172800.0,
+                            "x2": 1369300.0,
+                            "y2": 178400.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VSS",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xe3",
+                    "angle": "",
+                    "cell": "JNWTR_RPPO16",
+                    "libpath": "JNW_TR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 1146500.0,
+                    "y1": 344000.0,
+                    "x2": 1218900.0,
+                    "y2": 516000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWTR_RPPO2",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 1164700.0,
+                            "y1": 490000.0,
+                            "x2": 1179100.0,
+                            "y2": 502000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VD2",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 1186300.0,
+                            "y1": 490000.0,
+                            "x2": 1200700.0,
+                            "y2": 502000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VD2",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 1147300.0,
+                            "y1": 344800.0,
+                            "x2": 1218100.0,
+                            "y2": 350400.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VSS",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xe8",
+                    "angle": "",
+                    "cell": "JNWTR_RPPO2",
+                    "libpath": "JNW_TR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Instance",
+                    "x1": 1385100.0,
+                    "y1": 0,
+                    "x2": 1442700.0,
+                    "y2": 40000.0,
+                    "layer": "PR",
+                    "net": "",
+                    "name": "JNWATR_NCH_4C5F0",
+                    "has_pr": false,
+                    "ckt": {},
+                    "children": [
+                        {
+                            "class": "Port",
+                            "x1": 1418700.0,
+                            "y1": 2000.0,
+                            "x2": 1428300.0,
+                            "y2": 6000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "LPI",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 1393100.0,
+                            "y1": 18000.0,
+                            "x2": 1396300.0,
+                            "y2": 22000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "STARTUP_1V8",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 1399500.0,
+                            "y1": 30000.0,
+                            "x2": 1409100.0,
+                            "y2": 34000.0,
+                            "layer": "M2",
+                            "net": "",
+                            "name": "net5",
+                            "spicePort": true
+                        },
+                        {
+                            "class": "Port",
+                            "x1": 1380300.0,
+                            "y1": 18000.0,
+                            "x2": 1389900.0,
+                            "y2": 22000.0,
+                            "layer": "M1",
+                            "net": "",
+                            "name": "VSS",
+                            "spicePort": true
+                        }
+                    ],
+                    "instanceName": "xf4",
+                    "angle": "",
+                    "cell": "JNWATR_NCH_4C5F0",
+                    "libpath": "JNW_ATR_SKY130A",
+                    "xcell": 0,
+                    "ycell": 0
+                },
+                {
+                    "class": "Rect",
+                    "x1": 432600.0,
+                    "y1": 243700.0,
+                    "x2": 622600.0,
+                    "y2": 253700.0,
+                    "layer": "M4",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 432600.0,
+                    "y1": 243700.0,
+                    "x2": 622600.0,
+                    "y2": 253700.0,
+                    "layer": "M5",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 454600.0,
+                    "y1": 221700.0,
+                    "x2": 464600.0,
+                    "y2": 479700.0,
+                    "layer": "M4",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 454600.0,
+                    "y1": 221700.0,
+                    "x2": 464600.0,
+                    "y2": 479700.0,
+                    "layer": "M5",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 522600.0,
+                    "y1": 221700.0,
+                    "x2": 532600.0,
+                    "y2": 479700.0,
+                    "layer": "M4",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 522600.0,
+                    "y1": 221700.0,
+                    "x2": 532600.0,
+                    "y2": 479700.0,
+                    "layer": "M5",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 590600.0,
+                    "y1": 221700.0,
+                    "x2": 600600.0,
+                    "y2": 479700.0,
+                    "layer": "M4",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 590600.0,
+                    "y1": 221700.0,
+                    "x2": 600600.0,
+                    "y2": 479700.0,
+                    "layer": "M5",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 432600.0,
+                    "y1": 311700.0,
+                    "x2": 622600.0,
+                    "y2": 321700.0,
+                    "layer": "M4",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 432600.0,
+                    "y1": 311700.0,
+                    "x2": 622600.0,
+                    "y2": 321700.0,
+                    "layer": "M5",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 454600.0,
+                    "y1": 221700.0,
+                    "x2": 464600.0,
+                    "y2": 479700.0,
+                    "layer": "M4",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 454600.0,
+                    "y1": 221700.0,
+                    "x2": 464600.0,
+                    "y2": 479700.0,
+                    "layer": "M5",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 522600.0,
+                    "y1": 221700.0,
+                    "x2": 532600.0,
+                    "y2": 479700.0,
+                    "layer": "M4",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 522600.0,
+                    "y1": 221700.0,
+                    "x2": 532600.0,
+                    "y2": 479700.0,
+                    "layer": "M5",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 590600.0,
+                    "y1": 221700.0,
+                    "x2": 600600.0,
+                    "y2": 479700.0,
+                    "layer": "M4",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 590600.0,
+                    "y1": 221700.0,
+                    "x2": 600600.0,
+                    "y2": 479700.0,
+                    "layer": "M5",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 432600.0,
+                    "y1": 379700.0,
+                    "x2": 622600.0,
+                    "y2": 389700.0,
+                    "layer": "M4",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 432600.0,
+                    "y1": 379700.0,
+                    "x2": 622600.0,
+                    "y2": 389700.0,
+                    "layer": "M5",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 454600.0,
+                    "y1": 221700.0,
+                    "x2": 464600.0,
+                    "y2": 479700.0,
+                    "layer": "M4",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 454600.0,
+                    "y1": 221700.0,
+                    "x2": 464600.0,
+                    "y2": 479700.0,
+                    "layer": "M5",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 522600.0,
+                    "y1": 221700.0,
+                    "x2": 532600.0,
+                    "y2": 479700.0,
+                    "layer": "M4",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 522600.0,
+                    "y1": 221700.0,
+                    "x2": 532600.0,
+                    "y2": 479700.0,
+                    "layer": "M5",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 590600.0,
+                    "y1": 221700.0,
+                    "x2": 600600.0,
+                    "y2": 479700.0,
+                    "layer": "M4",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 590600.0,
+                    "y1": 221700.0,
+                    "x2": 600600.0,
+                    "y2": 479700.0,
+                    "layer": "M5",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 432600.0,
+                    "y1": 447700.0,
+                    "x2": 486600.0,
+                    "y2": 457700.0,
+                    "layer": "M4",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 432600.0,
+                    "y1": 447700.0,
+                    "x2": 486600.0,
+                    "y2": 457700.0,
+                    "layer": "M5",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 454600.0,
+                    "y1": 221700.0,
+                    "x2": 464600.0,
+                    "y2": 479700.0,
+                    "layer": "M4",
+                    "net": ""
+                },
+                {
+                    "class": "Rect",
+                    "x1": 454600.0,
+                    "y1": 221700.0,
+                    "x2": 464600.0,
+                    "y2": 479700.0,
+                    "layer": "M5",
+                    "net": ""
+                }
+            ]
+        }
+    ]
+}
