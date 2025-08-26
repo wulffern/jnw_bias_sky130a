@@ -5,7 +5,7 @@ V {}
 S {}
 F {}
 E {}
-T {Reference and bias sources} 410 -530 0 0 0.4 0.4 {}
+T {Reference and bias sources} 110 -540 0 0 0.4 0.4 {}
 N 240 -740 270 -740 {lab=STARTUP_1V8}
 N 190 -760 270 -760 {lab=VDD_1V8}
 N 120 -700 220 -700 {lab=VSS}
@@ -25,3 +25,4 @@ C {cborder/border_xs.sym} 10 0 0 0 {user="Carsten Wulff" company="Carsten Wulff 
 C {devices/opin.sym} 630 -740 0 0 {name=p10 lab=VREF_1V0}
 C {devices/ipin.sym} 120 -740 0 0 {name=p11 lab=STARTUP_1V8}
 C {JNW_BIAS_SKY130A/JNW_BIAS_IBPREF.sym} 420 -730 0 0 {name=x1}
+C {devices/lab_wire.sym} 600 -700 0 1 {name=p3 sig_type=std_logic lab=LP1}
