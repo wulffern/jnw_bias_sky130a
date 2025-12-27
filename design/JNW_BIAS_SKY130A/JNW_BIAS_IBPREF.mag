@@ -1,56 +1,56 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1756047484
+timestamp 1756644569
 << locali >>
-rect -11400 9600 678 10000
-rect -11400 0 3046 400
+rect 0 9600 12078 10000
+rect 0 0 14446 400
 << metal1 >>
-rect 14352 9020 14544 9404
-rect -496 8196 -303 8202
-rect -496 4788 -303 8003
-rect 14352 4912 14544 8760
-rect -304 4596 -303 4788
-rect -496 4590 -304 4596
-rect 540 1580 608 2064
+rect 25752 9020 25944 9404
+rect 10904 8196 11097 8202
+rect 10904 4788 11097 8003
+rect 25752 4912 25944 8760
+rect 11096 4596 11097 4788
+rect 10904 4590 11096 4596
+rect 11940 1580 12008 2064
 << via1 >>
-rect -496 8003 -303 8196
-rect -496 4596 -304 4788
+rect 10904 8003 11097 8196
+rect 10904 4596 11096 4788
 << metal2 >>
-rect 0 8676 1056 8868
-rect -11296 8003 -496 8196
-rect -303 8003 -297 8196
-rect 4 7804 1056 7988
-rect 4 5404 1056 5588
-rect -502 4596 -496 4788
-rect -304 4596 596 4788
+rect 11400 8676 12456 8868
+rect 104 8003 10904 8196
+rect 11097 8003 11103 8196
+rect 11404 7804 12456 7988
+rect 11404 5404 12456 5588
+rect 10898 4596 10904 4788
+rect 11096 4596 11996 4788
 use JNW_BIAS_IBP  x2 ../JNW_BIAS_SKY130A
-timestamp 1756046330
-transform 1 0 0 0 1 0
+timestamp 1756644569
+transform 1 0 11400 0 1 0
 box 0 0 15200 10002
 use JNW_BIAS_IBP_VREF  x4 ../JNW_BIAS_SKY130A
-timestamp 1756047484
-transform 1 0 -11000 0 1 400
+timestamp 1756644569
+transform 1 0 400 0 1 400
 box -400 -400 11600 7826
 << labels >>
-flabel locali -11400 0 3046 400 0 FreeSans 1600 0 0 0 VSS
-port 1 nsew
-flabel locali -11400 9600 678 10000 0 FreeSans 1600 0 0 0 VDD_1V8
-port 2 nsew
-flabel metal2 4 5404 1056 5588 0 FreeSans 1600 0 0 0 IBP_1U[2]
-port 3 nsew
-flabel metal2 4 7804 1056 7988 0 FreeSans 1600 0 0 0 IBP_1U[0]
-port 4 nsew
-flabel metal2 0 8676 1056 8868 0 FreeSans 1600 0 0 0 IBP_1U[1]
-port 5 nsew
-flabel metal1 14352 4912 14544 8760 0 FreeSans 1600 0 0 0 LPO
-port 6 nsew
-flabel metal1 14352 9020 14544 9404 0 FreeSans 1600 0 0 0 LPI
-port 7 nsew
-flabel metal1 540 1580 608 2064 0 FreeSans 1600 0 0 0 STARTUP_1V8
-port 8 nsew
-flabel metal2 -11296 8003 -11103 8196 0 FreeSans 1600 0 0 0 VREF_1V23
+flabel metal2 104 8003 297 8196 0 FreeSans 1600 0 0 0 VREF_1V23
 port 9 nsew
+flabel metal1 11940 1580 12008 2064 0 FreeSans 1600 0 0 0 STARTUP_1V8
+port 8 nsew
+flabel metal1 25752 9020 25944 9404 0 FreeSans 1600 0 0 0 LPI
+port 7 nsew
+flabel metal1 25752 4912 25944 8760 0 FreeSans 1600 0 0 0 LPO
+port 6 nsew
+flabel metal2 11400 8676 12456 8868 0 FreeSans 1600 0 0 0 IBP_1U[1]
+port 5 nsew
+flabel metal2 11404 7804 12456 7988 0 FreeSans 1600 0 0 0 IBP_1U[0]
+port 4 nsew
+flabel metal2 11404 5404 12456 5588 0 FreeSans 1600 0 0 0 IBP_1U[2]
+port 3 nsew
+flabel locali 0 9600 12078 10000 0 FreeSans 1600 0 0 0 VDD_1V8
+port 2 nsew
+flabel locali 0 0 14446 400 0 FreeSans 1600 0 0 0 VSS
+port 1 nsew
 << properties >>
-string FIXED_BBOX 0 0 21872 10000
+string FIXED_BBOX 0 0 26600 10000
 << end >>

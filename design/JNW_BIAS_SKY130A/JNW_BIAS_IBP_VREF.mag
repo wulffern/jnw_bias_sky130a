@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1756047484
+timestamp 1756644569
 << locali >>
 rect -400 4000 -120 5240
 rect 900 4000 1720 6840
@@ -98,31 +98,31 @@ rect 2220 7580 2223 7820
 rect -322 7578 2223 7580
 rect 1980 7574 2220 7578
 use sky130_fd_pr__rf_pnp_05v5_W3p40L3p40  sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0 $PDKPATH/libs.ref/sky130_fd_pr/mag
-timestamp 1734020192
+timestamp 1756644569
 transform 1 0 -200 0 1 3800
 box 0 0 1340 1340
 use JNWTR_RPPO2  xa1 ../JNW_TR_SKY130A
-timestamp 1755255778
+timestamp 1756644569
 transform 1 0 -200 0 1 -200
 box 0 0 1448 3440
 use JNWTR_RPPO4  xb1 ../JNW_TR_SKY130A
-timestamp 1755333658
+timestamp 1756644569
 transform 1 0 1400 0 1 -200
 box 0 0 1880 3440
 use JNWTR_RPPO8  xc1 ../JNW_TR_SKY130A
-timestamp 1755344196
+timestamp 1756644569
 transform 1 0 3400 0 1 -200
 box 0 0 2744 3440
 use JNWTR_RPPO16  xd3_0 ../JNW_TR_SKY130A
-timestamp 1756043915
+timestamp 1756644569
 transform -1 0 6072 0 1 3400
 box 0 0 4472 3440
 use JNWTR_RPPO16  xd3_1
-timestamp 1756043915
+timestamp 1756644569
 transform -1 0 10672 0 1 3400
 box 0 0 4472 3440
 use JNWTR_RPPO16  xd3_2
-timestamp 1756043915
+timestamp 1756644569
 transform 1 0 6200 0 1 -200
 box 0 0 4472 3440
 << labels >>
